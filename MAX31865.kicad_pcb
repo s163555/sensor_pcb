@@ -7,6 +7,10 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "MAX31865")
+		(date "2024-03-06")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)

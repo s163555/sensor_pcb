@@ -472,7 +472,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "drawing_sheet.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -561,7 +561,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "drawing_sheet.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -575,7 +575,7 @@
   "sheets": [
     [
       "7d3dfe06-ad22-4135-8721-3b06d69e4560",
-      "Adafruit MAX31865_0"
+      "Root"
     ]
   ],
   "text_variables": {}
