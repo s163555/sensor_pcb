@@ -9,27 +9,42 @@
 		(date "2024-03-06")
 	)
 	(lib_symbols
-		(symbol "MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE"
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at -2.29 1.25 90)
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 2.3 1.25 90)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "MAX31865:0805-NO"
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ceramic Capacitors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,44 +71,23 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "CAP_CERAMIC0805-NOOUTLINE_1_0"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.27 1.524)
-					(end 1.27 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.508)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -101,48 +95,50 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.778)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
-						(width 0.1524)
-						(type solid)
+						(width 0.508)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "C_1_1"
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3933,8 +3929,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 93.98 139.7 0)
+		(lib_id "Device:C")
+		(at 93.98 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3942,7 +3938,7 @@
 		(dnp no)
 		(uuid "11a3e95b-a517-4bd7-b03c-cb3cad425c34")
 		(property "Reference" "C5"
-			(at 91.69 138.45 90)
+			(at 90.678 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3946,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 96.28 138.45 90)
+			(at 97.282 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3954,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 93.98 139.7 0)
+			(at 94.9452 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,8 +3962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.98 139.7 0)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,8 +3971,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 139.7 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,8 +5126,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 139.7 58.42 0)
+		(lib_id "Device:C")
+		(at 139.7 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5139,7 +5135,7 @@
 		(dnp no)
 		(uuid "8168ae99-25d8-48b7-b6b5-3f196028c19e")
 		(property "Reference" "C2"
-			(at 137.41 57.17 90)
+			(at 136.398 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5143,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 142 57.17 90)
+			(at 143.256 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5151,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 139.7 58.42 0)
+			(at 140.6652 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,8 +5159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 139.7 58.42 0)
+		(property "Datasheet" "~"
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,8 +5168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 58.42 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,8 +5263,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 162.56 114.3 0)
+		(lib_id "Device:C")
+		(at 162.56 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5276,7 +5272,7 @@
 		(dnp no)
 		(uuid "9b73c8fb-4c7d-46ee-afce-06de7020b479")
 		(property "Reference" "C3"
-			(at 160.27 113.05 90)
+			(at 159.004 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5280,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 164.86 113.05 90)
+			(at 166.116 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5288,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 162.56 114.3 0)
+			(at 163.5252 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,8 +5296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 162.56 114.3 0)
+		(property "Datasheet" "~"
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,8 +5305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 114.3 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,8 +5484,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 119.38 53.34 0)
+		(lib_id "Device:C")
+		(at 119.38 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5497,7 +5493,7 @@
 		(dnp no)
 		(uuid "b0516e1b-8c69-437d-9e3f-b43ecf654ba9")
 		(property "Reference" "C1"
-			(at 117.09 52.09 90)
+			(at 115.57 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +5501,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 121.68 52.09 90)
+			(at 123.19 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5509,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 119.38 53.34 0)
+			(at 120.3452 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,8 +5517,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 119.38 53.34 0)
+		(property "Datasheet" "~"
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,8 +5526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 53.34 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,8 +5896,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 60.96 139.7 0)
+		(lib_id "Device:C")
+		(at 60.96 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5909,7 +5905,7 @@
 		(dnp no)
 		(uuid "dc9bbea5-7d5e-4d63-a974-80d15f0df509")
 		(property "Reference" "C4"
-			(at 58.67 138.45 90)
+			(at 57.404 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +5913,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 63.26 138.45 90)
+			(at 64.262 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +5921,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 60.96 139.7 0)
+			(at 61.9252 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,8 +5929,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 60.96 139.7 0)
+		(property "Datasheet" "~"
+			(at 60.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,8 +5938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 139.7 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
