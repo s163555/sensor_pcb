@@ -145,6 +145,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MAX31865-eagle-import:DIODESOD-323"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -959,149 +1080,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-		)
-		(symbol "MAX31865-eagle-import:RESISTOR0805_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-						(bold yes)
-					)
-				)
-			)
-			(property "Footprint" "MAX31865:0805-NO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistors\n\nFor new designs, use the packages preceded by an '_' character since they are more reliable:\n\nThe following footprints should be used on most boards:\n\n• _0402 - Standard footprint for regular board layouts\n• _0603 - Standard footprint for regular board layouts\n• _0805 - Standard footprint for regular board layouts\n• _1206 - Standard footprint for regular board layouts\n\nFor extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):\n\n• _0402MP - Micro-pitch footprint for very dense/compact boards\n• _0603MP - Micro-pitch footprint for very dense/compact boards\n• _0805MP - Micro-pitch footprint for very dense/compact boards\n• _1206MP - Micro-pitch footprint for very dense/compact boards"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RESISTOR0805_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 			)
@@ -2522,7 +2500,7 @@
 		(at 93.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "651d1b10-133d-4f1f-872b-cd03b7a47a82")
+		(uuid "6babe0d0-3fa4-4be5-8f3b-f1c7118c94a1")
 	)
 	(junction
 		(at 91.44 86.36)
@@ -2534,7 +2512,7 @@
 		(at 167.64 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79a295e2-dc94-49cd-9101-02e67132883b")
+		(uuid "75b01719-400a-4eea-bb07-d907986f3706")
 	)
 	(junction
 		(at 132.08 137.16)
@@ -2571,12 +2549,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba0fc239-2d70-4b4e-babc-6c51129dfeb3")
-	)
-	(junction
-		(at 99.06 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c83f5347-1853-4af9-bcdd-b20ad3f2c3c9")
 	)
 	(junction
 		(at 129.54 137.16)
@@ -2914,6 +2886,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 63.5) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446f576f-6322-4492-9cfc-0598f470c41a")
+	)
+	(wire
+		(pts
+			(xy 167.64 83.82) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b186c1-b8cc-4b5f-965f-55cc7b4e7560")
+	)
+	(wire
+		(pts
 			(xy 66.04 144.78) (xy 60.96 144.78)
 		)
 		(stroke
@@ -2974,6 +2966,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 63.5) (xy 99.06 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "54dcb0e2-a713-4bf7-aff6-f0513ccbf1b6")
+	)
+	(wire
+		(pts
 			(xy 177.8 127) (xy 182.88 127)
 		)
 		(stroke
@@ -2984,7 +2986,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 63.5) (xy 99.06 63.5)
+			(xy 91.44 63.5) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -3001,6 +3003,16 @@
 			(type solid)
 		)
 		(uuid "61256c11-177e-4e22-a0ec-afa8ea26a805")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 101.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a1ac49-7973-4211-8001-78e4d8b0b445")
 	)
 	(wire
 		(pts
@@ -3234,26 +3246,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 93.98 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a109d0ba-c95d-49e8-89f7-040c4493c351")
-	)
-	(wire
-		(pts
-			(xy 99.06 83.82) (xy 86.36 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a5185b7c-eb4b-4696-8af1-bc85529fad73")
-	)
-	(wire
-		(pts
 			(xy 73.66 78.74) (xy 50.8 78.74)
 		)
 		(stroke
@@ -3364,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 83.82) (xy 99.06 83.82)
+			(xy 86.36 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -3514,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 91.44 63.5)
+			(xy 91.44 63.5) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -4202,8 +4194,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:RESISTOR0805_NOOUTLINE")
-		(at 99.06 78.74 90)
+		(lib_id "Device:R")
+		(at 99.06 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4211,7 +4203,7 @@
 		(dnp no)
 		(uuid "1dac385e-51fb-4719-8598-f0e7f88b12a2")
 		(property "Reference" "R6"
-			(at 96.52 78.74 0)
+			(at 96.774 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4211,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 99.06 78.74 0)
+			(at 99.06 77.47 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4228,7 +4220,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 99.06 78.74 0)
+			(at 100.838 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,8 +4228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 99.06 78.74 0)
+		(property "Datasheet" "~"
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,8 +4237,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 78.74 0)
+		(property "Description" "Resistor"
+			(at 99.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,8 +4713,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:RESISTOR0805_NOOUTLINE")
-		(at 167.64 81.28 90)
+		(lib_id "Device:R")
+		(at 167.64 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4730,7 +4722,7 @@
 		(dnp no)
 		(uuid "5ac4d04f-fa74-472f-9f5c-84d0205d4e43")
 		(property "Reference" "R1"
-			(at 165.1 81.28 0)
+			(at 165.354 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +4730,7 @@
 			)
 		)
 		(property "Value" "430Ω / 4300Ω 0.1%"
-			(at 170.18 81.28 0)
+			(at 169.926 80.01 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4747,7 +4739,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 167.64 81.28 0)
+			(at 169.418 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,8 +4747,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 167.64 81.28 0)
+		(property "Datasheet" "~"
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,8 +4756,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 81.28 0)
+		(property "Description" "Resistor"
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,8 +5606,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:RESISTOR0805_NOOUTLINE")
-		(at 93.98 68.58 90)
+		(lib_id "Device:R")
+		(at 93.98 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5623,7 +5615,7 @@
 		(dnp no)
 		(uuid "bcbc5a58-3854-43ea-a2a6-88d3f1cb58c8")
 		(property "Reference" "R7"
-			(at 91.44 68.58 0)
+			(at 96.266 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5623,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 93.98 68.58 0)
+			(at 93.98 69.85 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5640,7 +5632,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 93.98 68.58 0)
+			(at 95.758 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,8 +5640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.98 68.58 0)
+		(property "Datasheet" "~"
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,8 +5649,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 68.58 0)
+		(property "Description" "Resistor"
+			(at 93.98 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,8 +5955,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:RESISTOR0805_NOOUTLINE")
-		(at 91.44 76.2 90)
+		(lib_id "Device:R")
+		(at 91.44 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5972,7 +5964,7 @@
 		(dnp no)
 		(uuid "e0c8cf34-c9f5-47bf-a67a-c2e8cce765ab")
 		(property "Reference" "R8"
-			(at 88.9 76.2 0)
+			(at 89.154 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5972,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 91.44 76.2 0)
+			(at 91.44 77.47 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5989,7 +5981,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:0805-NO"
-			(at 91.44 76.2 0)
+			(at 93.218 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,8 +5989,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 91.44 76.2 0)
+		(property "Datasheet" "~"
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,8 +5998,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 76.2 0)
+		(property "Description" "Resistor"
+			(at 91.44 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
