@@ -415,6 +415,193 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1583,150 +1770,6 @@
 				)
 			)
 		)
-		(symbol "MAX31865-eagle-import:TERMBLOCK_1X2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "MAX31865:TERMBLOCK_1X2-3.5MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3.5mm Terminal block\n\nhttp://www.ladyada.net/library/pcb/eaglelibrary.html"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TERMBLOCK_1X2_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MAX31865-eagle-import:VIN"
 			(power)
 			(exclude_from_sim no)
@@ -2724,12 +2767,6 @@
 		(uuid "17f5ac5d-dd6b-4243-bfc4-a071f09811b3")
 	)
 	(junction
-		(at 177.8 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a033467-9253-44e3-aa15-64b88bfc57c0")
-	)
-	(junction
 		(at 60.96 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2746,6 +2783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d943eb2-a93f-4007-89a8-ab7e3918f539")
+	)
+	(junction
+		(at 177.8 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "732be580-62ba-40f0-b7aa-098369b859f8")
 	)
 	(junction
 		(at 162.56 119.38)
@@ -2784,16 +2827,16 @@
 		(uuid "c85bbf13-8c0a-48f3-892d-c9b73982ede6")
 	)
 	(junction
+		(at 177.8 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1cf586a-ee58-4d15-872f-ba11ad0dfa4a")
+	)
+	(junction
 		(at 154.94 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d71d4c59-0770-4f38-a6af-afe06e303bec")
-	)
-	(junction
-		(at 177.8 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8c735b5-653d-4f0e-b3b9-d2213195d28a")
 	)
 	(junction
 		(at 66.04 129.54)
@@ -2997,16 +3040,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 185.42 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "25e60242-91cf-42e2-8c1a-0dbec4ce08de")
-	)
-	(wire
-		(pts
 			(xy 127 119.38) (xy 127 121.92)
 		)
 		(stroke
@@ -3057,6 +3090,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 96.52) (xy 185.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2c8611-452f-4852-a000-bd45c16a45ab")
+	)
+	(wire
+		(pts
 			(xy 132.08 53.34) (xy 132.08 52.07)
 		)
 		(stroke
@@ -3064,16 +3107,6 @@
 			(type solid)
 		)
 		(uuid "312417c8-fdb9-43ee-8861-9732acf94aa9")
-	)
-	(wire
-		(pts
-			(xy 177.8 116.84) (xy 185.42 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "34f424c0-f298-4aee-b56c-2e880229d05b")
 	)
 	(wire
 		(pts
@@ -3464,6 +3497,16 @@
 			(type default)
 		)
 		(uuid "7df130f2-b27d-4aa6-a2c3-d5b56b46b800")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec873a8-ad77-4db2-affb-54631d3ff46b")
 	)
 	(wire
 		(pts
@@ -6211,8 +6254,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:TERMBLOCK_1X2")
-		(at 190.5 116.84 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 190.5 119.38 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6221,7 +6264,7 @@
 		(dnp no)
 		(uuid "dc168122-afa4-4989-9406-55234dff1584")
 		(property "Reference" "X2"
-			(at 187.96 124.46 0)
+			(at 189.23 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6230,7 +6273,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 187.96 111.76 0)
+			(at 187.96 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6239,7 +6282,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:TERMBLOCK_1X2-3.5MM"
-			(at 190.5 116.84 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,8 +6290,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 116.84 0)
+		(property "Datasheet" "~"
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,8 +6299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 116.84 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,8 +6654,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865-eagle-import:TERMBLOCK_1X2")
-		(at 190.5 96.52 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 190.5 99.06 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6621,7 +6664,7 @@
 		(dnp no)
 		(uuid "f54286e0-b36f-4549-be57-b3021978865c")
 		(property "Reference" "X1"
-			(at 187.96 104.14 0)
+			(at 189.484 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6630,7 +6673,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 187.96 91.44 0)
+			(at 187.96 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6639,7 +6682,7 @@
 			)
 		)
 		(property "Footprint" "MAX31865:TERMBLOCK_1X2-3.5MM"
-			(at 190.5 96.52 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,8 +6690,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 96.52 0)
+		(property "Datasheet" "~"
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,8 +6699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 96.52 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
