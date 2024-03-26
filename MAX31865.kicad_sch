@@ -5945,7 +5945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:1X08_ROUND_70"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical"
 			(at 142.24 172.72 0)
 			(effects
 				(font
