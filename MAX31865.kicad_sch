@@ -4456,7 +4456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 94.9452 142.24 0)
 			(effects
 				(font
@@ -5672,7 +5672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 60.96 0)
 			(effects
 				(font
@@ -5809,7 +5809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.5252 116.84 0)
 			(effects
 				(font
@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 120.3452 55.88 0)
 			(effects
 				(font
@@ -6364,7 +6364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 61.9252 142.24 0)
 			(effects
 				(font

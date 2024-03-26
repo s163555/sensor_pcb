@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MAX31865-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MAX31865-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "VREG_SOT23-5")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/VREG_SOT23-5.kicad_sym")(options "")(descr ""))
+  (lib (name "external_library")(type "KiCad")(uri "${KIPRJMOD}/external/symbols/external_library.kicad_sym")(options "")(descr ""))
 )
