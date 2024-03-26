@@ -2282,34 +2282,32 @@
 			)
 		)
 	)
-	(footprint "FIDUCIAL_1MM"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "35768787-590d-498d-8af2-ff6afc4267c0")
 		(at 137.0711 115.4176 90)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
 		(property "Reference" "FID2"
-			(at 0 0 90)
-			(unlocked yes)
+			(at 0 -2 90)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "19b16970-e63c-4a1f-acf5-c85468d33c64")
+			(uuid "311f94f4-c964-4093-9c8a-e7ea52e6b6e3")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right top)
 			)
 		)
 		(property "Value" "FIDUCIAL\"\""
-			(at 0 0 90)
-			(unlocked yes)
+			(at 0 2 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "6c42f92d-65f0-4ddb-baf7-8bacfe803aa9")
+			(uuid "71364a64-cda3-4670-8549-4d4e7a0d4799")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right top)
 			)
 		)
 		(property "Footprint" ""
@@ -2317,7 +2315,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3d1b534-1564-4fe5-8d83-42d84b19cc3d")
+			(uuid "b7b0ead0-948a-473e-86ac-3df0bcd4b442")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2327,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a715838f-5902-45bd-a7f9-12e32ff87b10")
+			(uuid "93744a83-a678-43d0-b9ba-7acd36395c5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,109 +2339,54 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69e97798-f955-4234-9ec9-1daa9a2b59ae")
+			(uuid "eb09a5bd-d37b-47d1-9ea6-e3b4a4229274")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(fp_arc
-			(start 0 -0.75)
-			(mid 0.53033 -0.53033)
-			(end 0.75 0)
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
 			(stroke
-				(width 0.5)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Mask")
-			(uuid "27ddffae-b54b-409f-acb3-738e1b582220")
-		)
-		(fp_arc
-			(start 0.75 0)
-			(mid 0.53033 0.53033)
-			(end 0 0.75)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.Mask")
-			(uuid "9076a414-701b-4735-acca-a9fcdc340482")
-		)
-		(fp_arc
-			(start -0.75 0)
-			(mid -0.53033 -0.53033)
-			(end 0 -0.75)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.Mask")
-			(uuid "511f52f7-a5a2-4a86-b30c-dc3ead05b6d6")
-		)
-		(fp_arc
-			(start 0 0.75)
-			(mid -0.53033 0.53033)
-			(end -0.75 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.Mask")
-			(uuid "b014b076-4d9d-4190-80a3-bc409fde7136")
-		)
-		(fp_arc
-			(start 0 -0.75)
-			(mid 0.53033 -0.53033)
-			(end 0.75 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
+			(fill none)
 			(layer "F.CrtYd")
-			(uuid "cfb3a762-1f4c-474f-9c03-17859c2e47b5")
+			(uuid "205dd98c-386d-4a29-8e48-125397ced9d2")
 		)
-		(fp_arc
-			(start 0.75 0)
-			(mid 0.53033 0.53033)
-			(end 0 0.75)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
 			(stroke
-				(width 0.5)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "c4909cbc-49d9-4d75-a5ea-5503d39bf886")
+			(fill none)
+			(layer "F.Fab")
+			(uuid "593426ce-ac87-4271-b942-3b68fcae9106")
 		)
-		(fp_arc
-			(start -0.75 0)
-			(mid -0.53033 -0.53033)
-			(end 0 -0.75)
-			(stroke
-				(width 0.5)
-				(type solid)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "9e4acfcb-10fe-4039-a1b7-7ccc223ef9d8")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
 			)
-			(layer "F.CrtYd")
-			(uuid "5625cb20-bcc7-4e68-9b39-f80bd18cdf3a")
 		)
-		(fp_arc
-			(start 0 0.75)
-			(mid -0.53033 0.53033)
-			(end -0.75 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4af5353b-1551-4aa3-9f94-f5b865b2b8a7")
-		)
-		(pad "1" smd roundrect
+		(pad "" smd circle
 			(at 0 0 90)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.5)
-			(solder_mask_margin 0.0508)
-			(thermal_bridge_angle 0)
-			(uuid "3457703f-55bb-40d0-8a10-14e35a7212d6")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "95c4c9bf-d33f-4561-908a-f232a39178d6")
 		)
 	)
 	(footprint "PCBFEAT-REV-040"
@@ -18540,34 +18483,32 @@
 			(uuid "2a0204fe-6931-4526-9802-17c4424a50df")
 		)
 	)
-	(footprint "FIDUCIAL_1MM"
+	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
 		(layer "F.Cu")
 		(uuid "bff8ca17-5f76-490d-a808-31aea0a05455")
 		(at 159.5501 97.2566 90)
+		(descr "Circular Fiducial, 1mm bare copper, 2mm soldermask opening (Level A)")
+		(tags "fiducial")
 		(property "Reference" "FID1"
-			(at 0 0 90)
-			(unlocked yes)
+			(at 0 -2 90)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "a9ee214d-0eca-4a64-9958-09b54b0f6430")
+			(uuid "973c7737-4792-4e16-b4c4-0752b08b3344")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right top)
 			)
 		)
 		(property "Value" "FIDUCIAL\"\""
-			(at 0 0 90)
-			(unlocked yes)
+			(at 0 2 90)
 			(layer "F.Fab")
-			(hide yes)
-			(uuid "be4affa4-fe72-41d4-a772-74d34439e302")
+			(uuid "11ebb4fe-323f-4457-8112-5a1c8273a878")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right top)
 			)
 		)
 		(property "Footprint" ""
@@ -18575,7 +18516,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fd46afe-42d4-4369-b4e0-de08cde8efa7")
+			(uuid "0badd814-0e31-4fce-b4bf-31960d19fa3c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18587,7 +18528,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e17b9c03-d623-4a56-87a7-cd794d882b9b")
+			(uuid "be99a2d3-7595-439b-9718-d9cc314b7589")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18599,109 +18540,54 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8baa7991-d67a-4ec5-bd3f-96cf717759d7")
+			(uuid "d8f2afd4-48dd-4c1d-9eb1-4e081d5da261")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(fp_arc
-			(start 0 -0.75)
-			(mid 0.53033 -0.53033)
-			(end 0.75 0)
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
 			(stroke
-				(width 0.5)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Mask")
-			(uuid "b64b843e-d258-4137-84f7-fae5fc419024")
-		)
-		(fp_arc
-			(start 0.75 0)
-			(mid 0.53033 0.53033)
-			(end 0 0.75)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.Mask")
-			(uuid "a20f5049-e3db-41bf-8143-0f72e65c2547")
-		)
-		(fp_arc
-			(start -0.75 0)
-			(mid -0.53033 -0.53033)
-			(end 0 -0.75)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.Mask")
-			(uuid "cfc88fa5-0b97-4092-98a9-218a5625a8e8")
-		)
-		(fp_arc
-			(start 0 0.75)
-			(mid -0.53033 0.53033)
-			(end -0.75 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.Mask")
-			(uuid "83c4a24a-33db-4c42-8ad1-7a7e60a7323a")
-		)
-		(fp_arc
-			(start 0 -0.75)
-			(mid 0.53033 -0.53033)
-			(end 0.75 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
+			(fill none)
 			(layer "F.CrtYd")
-			(uuid "bdb6443c-f946-4a0d-aea5-321a8f98b394")
+			(uuid "487c4854-fdcb-4ff8-8871-74481ae24221")
 		)
-		(fp_arc
-			(start 0.75 0)
-			(mid 0.53033 0.53033)
-			(end 0 0.75)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
 			(stroke
-				(width 0.5)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "4faf9142-8157-4e50-b864-47442a718cb7")
+			(fill none)
+			(layer "F.Fab")
+			(uuid "017dd52f-1c4c-4a68-8816-0a49caba252d")
 		)
-		(fp_arc
-			(start -0.75 0)
-			(mid -0.53033 -0.53033)
-			(end 0 -0.75)
-			(stroke
-				(width 0.5)
-				(type solid)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "a00f9b01-6eb0-43ca-b7fa-f013dc6e368d")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
 			)
-			(layer "F.CrtYd")
-			(uuid "f0c7991f-bddd-4986-bd6d-b35dba89985d")
 		)
-		(fp_arc
-			(start 0 0.75)
-			(mid -0.53033 0.53033)
-			(end -0.75 0)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "210b1ef3-a818-4307-9cd8-d76bfcc7fa8c")
-		)
-		(pad "1" smd roundrect
+		(pad "" smd circle
 			(at 0 0 90)
 			(size 1 1)
 			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.5)
-			(solder_mask_margin 0.0508)
-			(thermal_bridge_angle 0)
-			(uuid "48046cdb-460f-4e02-a7ba-edba9e87fc40")
+			(solder_mask_margin 0.5)
+			(clearance 0.5)
+			(uuid "674fa028-cf61-4135-b1ec-3f6d9dc39949")
 		)
 	)
 	(footprint "Diode_SMD:D_SOD-323"
