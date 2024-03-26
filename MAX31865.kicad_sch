@@ -4730,7 +4730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 100.838 77.47 90)
 			(effects
 				(font
@@ -5268,7 +5268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.418 80.01 90)
 			(effects
 				(font
@@ -6161,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 95.758 69.85 90)
 			(effects
 				(font
@@ -6432,7 +6432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.218 77.47 90)
 			(effects
 				(font
