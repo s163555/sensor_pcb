@@ -4526,7 +4526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 177.8 121.92 0)
 			(effects
 				(font
@@ -4596,7 +4596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 177.8 101.6 0)
 			(effects
 				(font
@@ -4862,7 +4862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:MOUNTINGHOLE_2.5_PLATED"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 73.66 40.64 0)
 			(effects
 				(font
@@ -6099,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:MOUNTINGHOLE_2.5_PLATED"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
 			(at 38.1 40.64 0)
 			(effects
 				(font
