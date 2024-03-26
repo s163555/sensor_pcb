@@ -5182,7 +5182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 73.66 83.82 0)
 			(effects
 				(font
@@ -6830,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 76.2 78.74 0)
 			(effects
 				(font
@@ -6915,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 76.2 73.66 0)
 			(effects
 				(font
