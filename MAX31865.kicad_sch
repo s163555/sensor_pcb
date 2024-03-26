@@ -6297,7 +6297,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MAX31865:TERMBLOCK_1X2-3.5MM"
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 190.5 119.38 0)
 			(effects
 				(font
@@ -6697,7 +6697,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MAX31865:TERMBLOCK_1X2-3.5MM"
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 190.5 99.06 0)
 			(effects
 				(font
