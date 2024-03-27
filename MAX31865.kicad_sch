@@ -4380,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX31865:SOT23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 78.74 132.08 0)
 			(effects
 				(font
@@ -4799,7 +4799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 271.78 157.48 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MAX31865:FIDUCIAL_1MM"
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
 			(at 266.7 157.48 0)
 			(effects
 				(font
