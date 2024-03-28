@@ -2364,30 +2364,28 @@
 				)
 			)
 		)
-		(symbol "VREG_SOT23-5:VREG_SOT23-5"
+		(symbol "external_library:MIC5225"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 6.096 0)
+				(at 0.762 8.89 0)
 				(effects
 					(font
-						(size 1.27 1.0795)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" ""
-				(at -7.62 -7.62 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
-						(size 1.27 1.0795)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MAX31865:SOT23-5"
-				(at 0 0 0)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2396,7 +2394,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2404,8 +2402,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SOT23-5 Fixed Voltage Regulators\n\nPart Current Out V Out V In V Dropout θJA (°C/W) TJ (°C) Digikey Part No.     ADP121   150mA   3.3V   3.4-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ33R7CT-ND     ADP121   150mA   3.0V   3.1-5.5V   0.09V @ 150mA   --   --   ADP121-AUJZ30R7CT-ND     ADP122   300mA   3.3V   3.4-5.5V   0.085V @ 300mA   --   --   ADP122AUJZ-3.3-R7CT-ND     ADP1712   300mA   3.3V   3.5-5.5V   0.17V @ 300mA   --   --   ADP1712AUJZ-3.3-R7TR-ND     AP7311 (Low Cost)   150mA   3.3V   3.5-6V   0.15V @ 150mA   --   --   AP7311-33WG-7DICT-ND      LD39015M18R   150mA   1.8V   1.9V-5.5V   0.08V @ 100mA   --   --   497-6977-1-ND      LP2985A-33DBVR   150mA   3.3V   3.3-16V   0.28V @ 150mA   206   150   296-18479-1-ND      MCP1824T-3302E/OT   300mA   3.3V   3.5V-6V   0.2V @ 300mA   --   --   MCP1824T-3302E/OTCT-ND      MIC5205-2.5YM5 TR   150mA   2.5V   2.7-16V   0.165V @ 150mA   --   --   576-1257-2-ND     MIC5205-3.0YM5 TR   150mA   3.0V   3.2V-16V   0.165V @ 150mA   --   --   576-1258-2-ND     MIC5205-3.3YM5 TR   150mA   3.3V   3.5V-16V   0.165V @ 150mA   --   --   576-1259-2-ND     TPS780330220   150mA   3.3V+2.2V   3.6-5.5V   250mV Max   --   --   296-23332-1-ND     TDA3663/N1,135   100mA   3.3V   3.5-45V   0.18V @ 50mA   --   --   568-5343-1-ND\n\nMax operating temp can be calculated using θJA, TJ (max junction temperature), and power in watts.  Set the \"Maximum Ambient Temperature\" until it reaches TJ (\"Max Junction Temperature\"), which is the absolute limit for safe use of the regulator: http://www.daycounter.com/Calculators/Heat-Sink-Temperature-Calculator.phtml Heat Sink Temperature Calculator\n\nFor example, With 12V source into a 3.3V LP2985 and a 30mA load, we are dissipating (12V-3.3V) * 0.03A = 0.261W.  With a θJA of 206 °C/W, a TJ of 150°C, and 261mW we can safely use the chip without a heat sink up to 75°C (=147.1°C Junction Temperature)."
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2413,65 +2411,9 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VREG_SOT23-5_1_0"
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "MIC5225_1_0"
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at -2.54 6.35 0)
 					(length 2.54)
 					(name "IN"
 						(effects
@@ -2489,7 +2431,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 -2.54 0)
+					(at -2.54 1.27 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2507,7 +2449,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 0 0)
+					(at -2.54 3.81 0)
 					(length 2.54)
 					(name "EN"
 						(effects
@@ -2525,7 +2467,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 10.16 -2.54 180)
+					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "P4"
 						(effects
@@ -2543,7 +2485,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 2.54 180)
+					(at 12.7 5.08 180)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -2558,6 +2500,19 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "MIC5225_1_1"
+				(rectangle
+					(start 0 7.62)
+					(end 10.16 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -2924,7 +2879,7 @@
 		(uuid "15e7d474-830f-4f3c-959a-ca96dbce1e44")
 	)
 	(junction
-		(at 96.52 113.03)
+		(at 91.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16fb0d1e-a570-4eed-8bc4-45720d11906d")
@@ -3020,12 +2975,12 @@
 		(uuid "ef52ad5c-8159-40d0-9920-a9e530c91718")
 	)
 	(no_connect
-		(at 91.44 118.11)
+		(at 86.36 116.84)
 		(uuid "7842570f-c163-431f-8bc4-6b57c2b3064c")
 	)
 	(wire
 		(pts
-			(xy 116.84 156.21) (xy 116.84 146.05)
+			(xy 115.57 152.4) (xy 115.57 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -3225,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 151.13) (xy 123.19 146.05)
+			(xy 121.92 147.32) (xy 121.92 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -3265,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 166.37) (xy 130.81 166.37)
+			(xy 111.76 162.56) (xy 129.54 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -3285,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 161.29) (xy 130.81 161.29)
+			(xy 111.76 157.48) (xy 129.54 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -3305,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 151.13) (xy 130.81 151.13)
+			(xy 121.92 147.32) (xy 129.54 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -3475,7 +3430,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 118.11) (xy 96.52 119.38)
+			(xy 91.44 119.38) (xy 91.44 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3485,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 153.67) (xy 130.81 153.67)
+			(xy 123.19 149.86) (xy 129.54 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -3555,7 +3510,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 168.91) (xy 130.81 168.91)
+			(xy 111.76 165.1) (xy 129.54 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -3705,7 +3660,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 124.46) (xy 96.52 125.73)
+			(xy 91.44 125.73) (xy 91.44 127)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 113.03) (xy 96.52 118.11)
+			(xy 91.44 114.3) (xy 91.44 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -3775,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 96.52 113.03)
+			(xy 86.36 114.3) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -3795,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 158.75) (xy 130.81 158.75)
+			(xy 111.76 154.94) (xy 129.54 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -3895,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 125.73) (xy 96.52 130.81)
+			(xy 91.44 127) (xy 91.44 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -3915,7 +3870,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 163.83) (xy 130.81 163.83)
+			(xy 111.76 160.02) (xy 129.54 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3985,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 156.21) (xy 130.81 156.21)
+			(xy 115.57 152.4) (xy 129.54 152.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -4115,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 113.03) (xy 96.52 107.95)
+			(xy 91.44 114.3) (xy 91.44 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -4176,7 +4131,7 @@
 	)
 	(text "R1 = 4x RTD resistance at 0°C (so 400 ohm for a 100 ohm RTD).\nUse high quality 1% or better resistors"
 		(exclude_from_sim no)
-		(at 172.72 83.82 0)
+		(at 172.72 85.09 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -4187,7 +4142,7 @@
 	)
 	(text "C3 = 100nF for 100 ohm RTD, 10nF for 1K"
 		(exclude_from_sim no)
-		(at 210.566 106.426 0)
+		(at 185.928 121.158 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -4208,7 +4163,7 @@
 		(uuid "88bb8687-6cc7-451a-b418-970ca234ca66")
 	)
 	(label "SDI_5V"
-		(at 113.03 163.83 0)
+		(at 111.76 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4219,7 +4174,7 @@
 		(uuid "1724c4fb-d7ca-4c53-9799-6f31bc6506a0")
 	)
 	(label "DRDY"
-		(at 113.03 168.91 0)
+		(at 111.76 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4230,7 +4185,7 @@
 		(uuid "26d76a20-6a89-4823-941c-86f878118439")
 	)
 	(label "SCLK_5V"
-		(at 113.03 158.75 0)
+		(at 111.76 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4263,7 +4218,7 @@
 		(uuid "75ef4c30-00cc-43d3-bb4c-d6efb51cb0ef")
 	)
 	(label "CS_5V"
-		(at 113.03 166.37 0)
+		(at 111.76 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4307,7 +4262,7 @@
 		(uuid "ceacdc53-4546-4d14-a56a-14e3df54d928")
 	)
 	(label "SDO"
-		(at 113.03 161.29 0)
+		(at 111.76 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4450,25 +4405,24 @@
 		)
 	)
 	(symbol
-		(lib_id "VREG_SOT23-5:VREG_SOT23-5")
-		(at 81.28 115.57 0)
+		(lib_id "external_library:MIC5225")
+		(at 73.66 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e164449-0cab-47b5-b1df-cee1a9a9e0fc")
 		(property "Reference" "U2"
-			(at 81.28 106.68 0)
+			(at 74.93 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
 				)
 			)
 		)
-		(property "Value" "MIC5225-3.3"
-			(at 81.28 109.22 0)
+		(property "Value" "MIC5225"
+			(at 77.216 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4476,7 +4430,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 81.28 115.57 0)
+			(at 73.66 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 115.57 0)
+			(at 73.66 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4448,7 @@
 			)
 		)
 		(property "Description" "IC REG LINEAR 3.3V 150MA SOT23-5"
-			(at 81.28 115.57 0)
+			(at 73.66 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4457,7 @@
 			)
 		)
 		(property "Component package type" "SOT-235"
-			(at 81.28 115.57 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4466,7 @@
 			)
 		)
 		(property "MPN" "MIC5225-3.3YM5-TR"
-			(at 81.28 115.57 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4475,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 81.28 115.57 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4484,7 @@
 			)
 		)
 		(property "SPN" "576-2980-2-ND"
-			(at 81.28 115.57 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4493,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 81.28 115.57 0)
+			(at 73.66 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4527,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 96.52 121.92 0)
+		(at 91.44 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4581,7 +4535,7 @@
 		(dnp no)
 		(uuid "11a3e95b-a517-4bd7-b03c-cb3cad425c34")
 		(property "Reference" "C5"
-			(at 94.996 120.142 0)
+			(at 89.916 121.412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4543,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 93.726 123.952 0)
+			(at 88.646 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4551,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4569,7 @@
 			)
 		)
 		(property "Description" "10µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric)"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4578,7 @@
 			)
 		)
 		(property "Component package type" "C_0805"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4587,7 @@
 			)
 		)
 		(property "MPN" "/"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4596,7 @@
 			)
 		)
 		(property "Manufacturer" "/"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4605,7 @@
 			)
 		)
 		(property "SPN" "GPC0805106-16"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4614,7 @@
 			)
 		)
 		(property "Supplier" "Eurocircuits"
-			(at 96.52 121.92 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5328,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 96.52 107.95 0)
+		(at 91.44 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5382,7 +5336,7 @@
 		(dnp no)
 		(uuid "3cbce6b7-9c22-43f0-acf5-9d43a4728e81")
 		(property "Reference" "#U$011"
-			(at 96.52 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5345,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 94.996 104.394 0)
+			(at 89.916 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5400,7 +5354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +5372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 96.52 107.95 0)
+			(at 91.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5606,7 @@
 			)
 		)
 		(property "Value" "430Ω, ±0.1%"
-			(at 169.926 83.566 90)
+			(at 169.926 85.09 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5749,7 +5703,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 123.19 146.05 0)
+		(at 121.92 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5757,7 +5711,7 @@
 		(dnp no)
 		(uuid "5b93a135-e438-40a1-ac96-36cc7867aa22")
 		(property "Reference" "#U$013"
-			(at 123.19 146.05 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5720,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 121.92 143.002 0)
+			(at 120.65 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5775,7 +5729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 146.05 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 146.05 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 123.19 146.05 0)
+			(at 121.92 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +5953,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 153.67 270)
+		(at 123.19 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6007,7 +5961,7 @@
 		(dnp no)
 		(uuid "6b71a261-08fa-485b-a0c8-fd02a6fb9e81")
 		(property "Reference" "#U$015"
-			(at 124.46 153.67 0)
+			(at 123.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +5970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.364 154.432 90)
+			(at 117.094 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6025,7 +5979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 153.67 0)
+			(at 123.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +5988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 153.67 0)
+			(at 123.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +5997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 153.67 0)
+			(at 123.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 130.81 0)
+		(at 91.44 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6073,7 +6027,7 @@
 		(dnp no)
 		(uuid "7a850b9a-0053-41c8-8d1f-8248a3747f3e")
 		(property "Reference" "#U$012"
-			(at 96.52 130.81 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 94.742 135.128 0)
+			(at 89.662 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6091,7 +6045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 130.81 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 130.81 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 130.81 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +6424,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 116.84 146.05 0)
+		(at 115.57 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6478,7 +6432,7 @@
 		(dnp no)
 		(uuid "9d137dbd-d5cc-47ea-984d-5df8657f9462")
 		(property "Reference" "#U$014"
-			(at 116.84 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6441,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 115.316 143.002 0)
+			(at 114.046 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6496,7 +6450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 116.84 146.05 0)
+			(at 115.57 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6490,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 135.89 161.29 180)
+		(at 134.62 157.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6544,7 +6498,7 @@
 		(dnp no)
 		(uuid "a4eaca78-f8ff-49d9-90eb-d8033db06792")
 		(property "Reference" "J1"
-			(at 135.128 145.542 0)
+			(at 133.858 141.732 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6553,7 +6507,7 @@
 			)
 		)
 		(property "Value" "connector"
-			(at 142.24 148.59 0)
+			(at 140.97 144.78 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6563,7 +6517,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6535,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6544,7 @@
 			)
 		)
 		(property "Component package type" "/"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6553,7 @@
 			)
 		)
 		(property "MPN" "TSW-108-09-G-S"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +6562,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec Inc."
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6571,7 @@
 			)
 		)
 		(property "SPN" "SAM12332-ND"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6580,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 135.89 161.29 0)
+			(at 134.62 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
