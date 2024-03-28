@@ -2142,6 +2142,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/external/STEP/MAX31865ATP+.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 180 180)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
@@ -4112,7 +4123,7 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB1"
-			(at 0 -1.55 -90)
+			(at 0 -1.55 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2317ddd9-17f9-4f18-8ab4-148cdb30685d")
@@ -4124,7 +4135,7 @@
 			)
 		)
 		(property "Value" "FERRITE-0805NO"
-			(at 0 1.55 -90)
+			(at 0 1.55 90)
 			(layer "F.Fab")
 			(uuid "0524f403-4bce-40d6-a693-e33868d4cedc")
 			(effects
@@ -4341,7 +4352,7 @@
 			(uuid "65669e4b-6e59-4960-b902-bea17dec7521")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "0ca804ec-55dd-4b8a-96fd-b00fefed7e9e")
 			(effects
@@ -5340,15 +5351,15 @@
 			(pintype "passive")
 			(uuid "6195ef7d-3b94-40e7-bfcb-dedd740128d5")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/external/STEP/393570004.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 5.3 0.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 180)
 			)
 		)
 	)
