@@ -3850,7 +3850,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127) (xy 91.44 132.08)
+			(xy 91.44 127) (xy 91.44 130.81)
 		)
 		(stroke
 			(width 0.1524)
@@ -4131,7 +4131,7 @@
 	)
 	(text "R1 = 4x RTD resistance at 0°C (so 400 ohm for a 100 ohm RTD).\nUse high quality 1% or better resistors"
 		(exclude_from_sim no)
-		(at 172.72 85.09 0)
+		(at 171.958 85.344 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -6019,7 +6019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 132.08 0)
+		(at 91.44 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6027,7 +6027,7 @@
 		(dnp no)
 		(uuid "7a850b9a-0053-41c8-8d1f-8248a3747f3e")
 		(property "Reference" "#U$012"
-			(at 91.44 132.08 0)
+			(at 91.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6036,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 89.662 136.398 0)
+			(at 89.662 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6045,7 +6045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 132.08 0)
+			(at 91.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 132.08 0)
+			(at 91.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 132.08 0)
+			(at 91.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
