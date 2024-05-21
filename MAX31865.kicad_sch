@@ -4602,7 +4602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 123.19 0)
 			(effects
 				(font
@@ -4717,7 +4717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 124.46 0)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 99.06 76.2 0)
 			(effects
 				(font
@@ -5125,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 60.96 52.07 0)
 			(effects
 				(font
@@ -5224,7 +5224,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TQFN-20-1EP_5x5mm_P0.65mm_EP3.25x3.25mm"
+		(property "Footprint" "external_footprints:MAX31865ATP+"
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -5234,7 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX31865.pdf"
+		(property "Datasheet" ""
 			(at 129.54 88.9 0)
 			(effects
 				(font
@@ -5535,7 +5535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 90.17 0)
 			(effects
 				(font
@@ -5666,7 +5666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 167.64 85.09 0)
 			(effects
 				(font
@@ -6108,7 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 138.43 64.77 0)
 			(effects
 				(font
@@ -6214,7 +6214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "external_footprints:LI0805G201R-10"
 			(at 133.858 55.88 90)
 			(effects
 				(font
@@ -6223,7 +6223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -6516,7 +6516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 157.48 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 120.65 63.5 0)
 			(effects
 				(font
@@ -6761,7 +6761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -6779,7 +6779,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0393570004"
+		(property "MPN" "039357-0004"
 			(at 189.23 109.22 0)
 			(effects
 				(font
@@ -6872,7 +6872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 53.34 52.07 0)
 			(effects
 				(font
@@ -6979,7 +6979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -7157,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 63.5 120.65 0)
 			(effects
 				(font
@@ -7273,7 +7273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 160.02 99.06 0)
 			(effects
 				(font
@@ -7344,7 +7344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -7654,7 +7654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 86.36 0)
 			(effects
 				(font
