@@ -9011,7 +9011,7 @@
 			(at -0.84 -2.92 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "74f5bea6-673a-49ba-b8b1-e79844a1e4e3")
+			(uuid "6487bfe6-eb8a-449d-878e-75f2afa160e8")
 			(effects
 				(font
 					(size 1 1)
@@ -9021,10 +9021,11 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 0 4.5 0)
+			(at -0.24 -3.02 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0a428090-d610-4404-8a5c-8847d6769e29")
+			(hide yes)
+			(uuid "074a0b92-3db6-4957-9839-1f1c559ee9a7")
 			(effects
 				(font
 					(size 1 1)
@@ -9037,7 +9038,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "035707a9-5e6d-4706-951c-460818694a86")
+			(uuid "4e214451-fbd5-4284-a1a0-d91d8e20959e")
 			(effects
 				(font
 					(size 1 1)
@@ -9050,7 +9051,19 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3693050d-261e-422c-b331-b59e3300f91e")
+			(uuid "dcda1173-3790-40c0-82cd-55e3d41a7a03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Comment" "Do Not Paste"
+			(at -0.14 -3.22 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "313b4db6-08ed-4b1a-a8b2-0fee92ce4778")
 			(effects
 				(font
 					(size 1 1)
