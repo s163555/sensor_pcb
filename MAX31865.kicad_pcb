@@ -93,7 +93,7 @@
 		(tenting front back)
 		(aux_axis_origin 100 150)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_5555555f_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -127,9 +127,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fabrication/")
 		)
 	)
 	(net 0 "")
@@ -895,7 +895,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -2.826 -0.007 180)
+			(at 0.174 1.993 180)
 			(layer "F.SilkS")
 			(uuid "c1adc57f-93c3-48f4-b04c-6209b51addcc")
 			(effects
@@ -1000,6 +1000,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5710999b-dae5-4148-9716-e7bede4005c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Comment" "RREF_400R"
+			(at -5.926 -0.107 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6dc0358b-1c1f-4e31-bc83-1d4589a05755")
 			(effects
 				(font
 					(size 1 1)
@@ -2766,6 +2778,17 @@
 			(uuid "ead04242-6ce9-46c3-856f-876bed2ec023")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -8938,6 +8961,17 @@
 			(uuid "bdff09d6-5453-4c77-8463-c3343e39c848")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/footprints/LI0805G201R-10.step"
+			(offset
+				(xyz 0 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "SensorFootprint:RTD_Sensor_BondPad_4x"
 		(layer "F.Cu")
@@ -10750,7 +10784,7 @@
 		(uuid "2d13f642-e1e9-4228-807a-2f32ef6bcc5a")
 	)
 	(via
-		(at 119.24 86.22)
+		(at 120.4 84.6)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -10791,6 +10825,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "7cd2d747-d1ea-44b3-82df-9aaf3fd1d395")
+	)
+	(via
+		(at 124.8 82.2)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "81eb1a27-23d1-44b9-aef5-281510696613")
 	)
 	(via
 		(at 122.2169 90.4474)
@@ -13070,6 +13113,19 @@
 				(xy 128.123671 82.450668) (xy 128.145898 82.412169) (xy 128.170341 82.369832) (xy 128.187321 82.30646)
 				(xy 128.194499 82.279676) (xy 128.1945 82.27967) (xy 128.1945 81.792) (xy 128.212806 81.747806)
 				(xy 128.257 81.7295) (xy 128.34 81.7295) (xy 128.439306 81.709747) (xy 128.455276 81.699075) (xy 128.502192 81.689743)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 124.874724 81.699076) (xy 124.890692 81.709746) (xy 124.890694 81.709747) (xy 124.99 81.7295)
+				(xy 125.073 81.7295) (xy 125.117194 81.747806) (xy 125.1355 81.792) (xy 125.1355 82.510274) (xy 125.126012 82.53318)
+				(xy 125.117194 82.554467) (xy 125.090492 82.581169) (xy 125.067308 82.604353) (xy 125.023113 82.622658)
+				(xy 125.001273 82.618718) (xy 124.975185 82.608988) (xy 124.956342 82.60196) (xy 124.948831 82.601152)
+				(xy 124.896262 82.5955) (xy 124.896255 82.5955) (xy 124.607 82.5955) (xy 124.562806 82.577194) (xy 124.5445 82.533)
+				(xy 124.5445 81.792) (xy 124.562806 81.747806) (xy 124.607 81.7295) (xy 124.69 81.7295) (xy 124.789306 81.709747)
+				(xy 124.805276 81.699075) (xy 124.81747 81.69665) (xy 124.827808 81.689743) (xy 124.84 81.692168)
+				(xy 124.852192 81.689743)
 			)
 		)
 		(filled_polygon
