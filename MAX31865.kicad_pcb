@@ -2766,6 +2766,17 @@
 			(uuid "ead04242-6ce9-46c3-856f-876bed2ec023")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-16-1EP_5x5mm_P0.5mm_EP3.46x4mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -8938,6 +8949,17 @@
 			(uuid "bdff09d6-5453-4c77-8463-c3343e39c848")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LI0805G201R-10.step"
+			(offset
+				(xyz 0 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "SensorFootprint:RTD_Sensor_BondPad_4x"
 		(layer "F.Cu")
