@@ -3997,12 +3997,6 @@
 		(uuid "a846ae6a-2e35-4cce-944f-59dd757e0764")
 	)
 	(junction
-		(at 86.36 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc01cbcf-cb17-42e8-926c-995400f8ad3d")
-	)
-	(junction
 		(at 90.17 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4167,16 +4161,6 @@
 			(type default)
 		)
 		(uuid "0693e595-dd79-485a-9504-28e2ce336448")
-	)
-	(wire
-		(pts
-			(xy 86.36 26.67) (xy 86.36 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074daf33-2fe0-4766-bd4c-f6d88fc47ca9")
 	)
 	(wire
 		(pts
@@ -4410,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 29.21) (xy 86.36 29.21)
+			(xy 68.58 29.21) (xy 74.93 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4567,16 +4551,6 @@
 			(type default)
 		)
 		(uuid "3bd46df7-0613-4e63-bf8d-5b23b5bb1f93")
-	)
-	(wire
-		(pts
-			(xy 86.36 29.21) (xy 87.63 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8611ce-8446-48f9-8fe5-0f3249dfc41e")
 	)
 	(wire
 		(pts
@@ -5799,7 +5773,7 @@
 		(uuid "5f2763db-4ab3-47cd-9177-142bd34fb022")
 	)
 	(label "SDO"
-		(at 87.63 29.21 0)
+		(at 74.93 29.21 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -6173,73 +6147,6 @@
 			(project "MAX31865"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 86.36 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "079d78a0-13a3-4320-bb25-086ca0027064")
-		(property "Reference" "TP8"
-			(at 88.9 22.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 88.9 24.6379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 91.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 86.36 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebca2d75-43b3-4eac-9bd1-c1e8f5234f63")
-		)
-		(instances
-			(project "MAX31865"
-				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
