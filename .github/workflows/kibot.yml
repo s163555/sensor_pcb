@@ -1,4 +1,4 @@
-name: KiBot GitHub action
+name: KiBot automation
 
 on:
   push:
@@ -7,12 +7,30 @@ on:
       - "*.sch"
       - "*.kicad_pcb"
       - "*.kicad_pro"
+      - "config.kibot.yml"
+      - ".github/workflows/kibot.yml"
 
 jobs:
-  drc:
+  generate_outputs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - uses: INTI-CMNB/KiBot@v1.8.4
         with:
           config: config.kibot.yml
+          
+      # Optional: Upload generated files as artifacts
+      - name: Upload fabrication outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: fabrication-outputs
+          path: |
+            *.zip
+            *.gerber
+            *.gbr
+            *.drl
+            *.csv
+            *.pdf
+            *.step
+            *.xml

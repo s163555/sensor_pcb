@@ -1,7 +1,98 @@
----
 kibot:
   version: 1
 
 preflight:
   check_zone_fills: true
-  drc: true
+  run_drc: true
+
+# Fabrication outputs
+outputs:
+  # Gerber files (essential for PCB manufacturing)
+  - name: gerbers
+    comment: "Gerber files for PCB fabrication"
+    type: gerber
+    options:
+      output: '%f_gerbers'
+      use_aux_origin: false
+    layers:
+      - F.Cu
+      - B.Cu
+      - F.Paste
+      - B.Paste
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+    # Additional layers for complex boards
+    # - F.Adhes
+    # - B.Adhes
+    # - F.CrtYd
+    # - B.CrtYd
+
+  # Drill files (NC drill for holes)
+  - name: drills
+    comment: "Drill files for PCB fabrication"
+    type: excellon
+    options:
+      output: '%f_drills'
+      metric: true
+      use_aux_origin: false
+
+  # Pick and place file (for assembly)
+  - name: pos
+    comment: "Pick and place file"
+    type: position
+    options:
+      output: '%f_pos.csv'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: true
+      use_aux_origin: false
+
+  # Bill of Materials (BOM)
+  - name: bom
+    comment: "Bill of Materials"
+    type: bom
+    options:
+      output: '%f_bom.csv'
+      format: CSV
+      columns:
+        - Ref
+        - Val
+        - Package
+        - PosX
+        - PosY
+        - Rot
+        - Side
+
+  # PDF schematic (for documentation)
+  - name: schematic_pdf
+    comment: "PDF schematic"
+    type: pdf_sch
+    options:
+      output: '%f_schematic.pdf'
+
+  # PDF layout (for documentation)
+  - name: layout_pdf
+    comment: "PDF layout"
+    type: pdf_pcb
+    options:
+      output: '%f_layout.pdf'
+      monochrome: false
+
+  # 3D model (STEP format)
+  - name: 3d_model
+    comment: "3D STEP model"
+    type: step
+    options:
+      output: '%f_3d.step'
+      include_tracks: false
+      include_zones: false
+
+  # IPC-2581 (modern alternative to Gerber)
+  - name: ipc2581
+    comment: "IPC-2581 manufacturing data"
+    type: ipc2581
+    options:
+      output: '%f_ipc2581.xml'
