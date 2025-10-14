@@ -1,4 +1,4 @@
-name: KiBot automation
+- name: KiBot GitHub action
 
 on:
   push:
@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: INTI-CMNB/KiBot@v2.0.0
+      - uses: INTI-CMNB/KiBot@v1.8.4
         with:
           config: config.kibot.yml
+
+
+  
