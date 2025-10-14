@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: INTI-CMNB/KiBot@v1.6.5
+      - uses: INTI-CMNB/KiBot@v2.0.0
         with:
           config: config.kibot.yml
