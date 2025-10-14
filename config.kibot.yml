@@ -4,4 +4,4 @@ kibot:
 
 preflight:
   check_zone_fills: true
-  run_drc: true
+  drc: true
