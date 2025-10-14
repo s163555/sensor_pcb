@@ -1,4 +1,4 @@
-- name: KiBot GitHub action
+name: KiBot GitHub action
 
 on:
   push:
@@ -16,6 +16,3 @@ jobs:
       - uses: INTI-CMNB/KiBot@v1.8.4
         with:
           config: config.kibot.yml
-
-
-  
