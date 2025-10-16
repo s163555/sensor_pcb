@@ -1,4 +1,4 @@
-name: KiBot automation
+name: KiBot GitHub action
 
 on:
   push:
@@ -7,10 +7,15 @@ on:
       - "*.sch"
       - "*.kicad_pcb"
       - "*.kicad_pro"
-      - "config.kibot.yml"
-      - ".github/workflows/kibot.yml"
 
 jobs:
+  drc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: INTI-CMNB/KiBot@v1.8.4
+        with:
+          config: config.kibot.yml
   generate_outputs:
     runs-on: ubuntu-latest
     steps:
