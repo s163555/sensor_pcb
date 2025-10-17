@@ -13,7 +13,6 @@ outputs:
     type: gerber
     options:
       output: '%f_gerbers'
-      use_aux_origin: false
     layers:
       - F.Cu
       - B.Cu
@@ -24,31 +23,22 @@ outputs:
       - F.Mask
       - B.Mask
       - Edge.Cuts
-    # Additional layers for complex boards
-    # - F.Adhes
-    # - B.Adhes
-    # - F.CrtYd
-    # - B.CrtYd
 
-  # Drill files (NC drill for holes)
   - name: drills
     comment: "Drill files for PCB fabrication"
     type: excellon
     options:
       output: '%f_drills'
-      metric: true
-      use_aux_origin: false
+      use_aux_origin: false   # remove this line if your KiBot still warns about unknown option
 
-  # Pick and place file (for assembly)
   - name: pos
     comment: "Pick and place file"
     type: position
     options:
-      output: '%f_pos.csv'
+      output: '%f_pos_%i.csv'       # IMPORTANT: include %i so front/back files get unique names
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: true
-      use_aux_origin: false
 
   # Bill of Materials (BOM)
   - name: bom

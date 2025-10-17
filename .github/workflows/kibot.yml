@@ -3,10 +3,10 @@ name: KiBot GitHub action
 on:
   push:
     branches: [ main ]
-    paths:
-      - "*.sch"
-      - "*.kicad_pcb"
-      - "*.kicad_pro"
+#    paths:
+#      - "*.sch"
+#      - "*.kicad_pcb"
+#      - "*.kicad_pro"
 
 jobs:
   drc:
