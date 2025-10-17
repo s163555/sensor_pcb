@@ -9,15 +9,7 @@ on:
       - "*.kicad_pro"
 
 jobs:
-  drc:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: INTI-CMNB/KiBot@v1.8.4
-        with:
-          config: config.kibot.yml
   generate_outputs:
-    needs: drc
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -46,7 +38,7 @@ jobs:
           retention-days: 30
   upload_release:
     needs: generate_outputs
-    if: startsWith(github.ref, 'refs/tags/')
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -55,12 +47,9 @@ jobs:
         with:
           name: fabrication-outputs
           path: ./release_artifacts
-      - name: Create GitHub Release
-        id: create_release
+      - name: Create or Update Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.ref_name }}
-      - name: Upload release assets
-        uses: softprops/action-gh-release@v1
-        with:
+          tag_name: latest
+          body: "Automated fabrication outputs from main branch"
           files: ./release_artifacts/**
