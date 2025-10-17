@@ -3,10 +3,10 @@ name: KiBot GitHub action
 on:
   push:
     branches: [ main ]
-#    paths:
-#      - "*.sch"
-#      - "*.kicad_pcb"
-#      - "*.kicad_pro"
+    paths:
+      - "*.sch"
+      - "*.kicad_pcb"
+      - "*.kicad_pro"
 
 jobs:
   drc:
@@ -17,10 +17,10 @@ jobs:
         with:
           config: config.kibot.yml
   generate_outputs:
+    needs: drc
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
       - uses: INTI-CMNB/KiBot@v1.8.4
         with:
           config: config.kibot.yml
@@ -41,6 +41,7 @@ jobs:
             *.xml
   upload_release:
     needs: generate_outputs
+    if: startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
