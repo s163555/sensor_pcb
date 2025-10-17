@@ -25,20 +25,12 @@ jobs:
         with:
           config: config.kibot.yml
           
-      # Optional: Upload generated files as artifacts
       - name: Upload fabrication outputs
         uses: actions/upload-artifact@v4
         with:
           name: fabrication-outputs
-          path: |
-            *.zip
-            *.gerber
-            *.gbr
-            *.drl
-            *.csv
-            *.pdf
-            *.step
-            *.xml
+          path: ./
+          retention-days: 30
   upload_release:
     needs: generate_outputs
     if: startsWith(github.ref, 'refs/tags/')
@@ -58,4 +50,4 @@ jobs:
       - name: Upload release assets
         uses: softprops/action-gh-release@v1
         with:
-          files: ./release_artifacts/*.zip
+          files: ./release_artifacts/**
