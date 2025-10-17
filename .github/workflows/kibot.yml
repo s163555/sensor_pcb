@@ -41,10 +41,17 @@ jobs:
         run: |
           echo "=== Current directory ==="
           ls -la
-          echo "=== sensor_pcb_gerbers ==="
-          ls -la sensor_pcb_gerbers/ 2>/dev/null || echo "Directory not found"
-          echo "=== sensor_pcb_drills ==="  
-          ls -la sensor_pcb_drills/ 2>/dev/null || echo "Directory not found"
+
+      - name: Inspect gerber and drill files
+        run: |
+          echo "=== Checking sensor_pcb_gerbers file ==="
+          file sensor_pcb_gerbers
+          echo "=== Checking sensor_pcb_drills file ==="
+          file sensor_pcb_drills
+          echo "=== If they're archives, let's see what's inside ==="
+          # Try to list contents if they're zip/tar archives
+          unzip -l sensor_pcb_gerbers 2>/dev/null || tar -tzf sensor_pcb_gerbers 2>/dev/null || echo "Not a recognized archive"
+          unzip -l sensor_pcb_drills 2>/dev/null || tar -tzf sensor_pcb_drills 2>/dev/null || echo "Not a recognized archive"
 
   upload_release:
     needs: generate_outputs
