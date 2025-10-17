@@ -35,6 +35,17 @@ jobs:
           name: fabrication-outputs
           path: fabrication_artifacts/
           retention-days: 30
+
+      # List files for debugging purposes
+      - name: List generated files (debug)
+        run: |
+          echo "=== Current directory ==="
+          ls -la
+          echo "=== sensor_pcb_gerbers ==="
+          ls -la sensor_pcb_gerbers/ 2>/dev/null || echo "Directory not found"
+          echo "=== sensor_pcb_drills ==="  
+          ls -la sensor_pcb_drills/ 2>/dev/null || echo "Directory not found"
+
   upload_release:
     needs: generate_outputs
     if: github.ref == 'refs/heads/main'
