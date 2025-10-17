@@ -13,7 +13,6 @@ outputs:
     type: gerber
     options:
       output: '%f_gerbers'
-      create_zip: false
     layers:
       - F.Cu
       - B.Cu
@@ -73,7 +72,6 @@ outputs:
       pages:
         - { page_id: board }
         - { page_id: assembly, layers: [ F.Cu, F.SilkS, F.Paste, F.Mask, B.Cu, B.SilkS, B.Paste, B.Mask ] }
-
 
   - name: 3d_model
     comment: "3D STEP model"
