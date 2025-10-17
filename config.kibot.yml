@@ -72,7 +72,7 @@ outputs:
       format: PDF
       scaling: 1
       pages:
-        - board
+        - { name: board }
 
   - name: 3d_model
     comment: "3D STEP model"

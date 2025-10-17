@@ -1118,7 +1118,7 @@
 				)
 			)
 		)
-		(property "Value" "430Ω, ±0.1%"
+		(property "Value" "430"
 			(at 0 1.65 180)
 			(layer "F.Fab")
 			(uuid "f90ae263-db99-4450-a742-1c42eb7d0485")
@@ -1230,6 +1230,19 @@
 					(size 1 1)
 					(thickness 0.2)
 					(bold yes)
+				)
+			)
+		)
+		(property "Tolerance" "Plus-Minus 0.1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1952dde-0d61-4f79-b138-63eca3570010")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2956,7 +2969,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.29)
-			(uuid "ead04242-6ce9-46c3-856f-876bed2ec023")
+			(uuid "7969ed4a-f813-45c4-a487-523afaa55e20")
 		)
 		(pad "21" smd rect
 			(at 0.8 -0.8 90)
@@ -2966,7 +2979,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.29)
-			(uuid "ead04242-6ce9-46c3-856f-876bed2ec023")
+			(uuid "a1b6ced3-5966-43e9-8b63-fdfb8167b795")
 		)
 		(pad "21" smd rect
 			(at 0.8 0.8 90)
@@ -2976,7 +2989,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(solder_paste_margin_ratio -0.29)
-			(uuid "ead04242-6ce9-46c3-856f-876bed2ec023")
+			(uuid "7989a5e6-7d68-4fb8-aa9b-7e462e8c0f99")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/external/3dmodels/MAX31865ATP+.STEP"

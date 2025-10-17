@@ -4179,7 +4179,7 @@
 	)
 	(text "R1 = 4x RTD resistance at 0°C (so 400 ohm for a 100 ohm RTD).\nUse high quality 1% or better resistors"
 		(exclude_from_sim no)
-		(at 136.906 137.414 0)
+		(at 133.35 135.382 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -4201,7 +4201,7 @@
 	)
 	(text "C3 = 100nF for 100 ohm RTD, 10nF for 1K"
 		(exclude_from_sim no)
-		(at 136.906 140.97 0)
+		(at 133.35 138.43 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -8632,8 +8632,8 @@
 				)
 			)
 		)
-		(property "Value" "430Ω, ±0.1%"
-			(at 133.096 134.62 90)
+		(property "Value" "430"
+			(at 130.8675 134.6008 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8697,6 +8697,15 @@
 		)
 		(property "Supplier" "Eurocircuits"
 			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "Plus-Minus 0.1%"
+			(at 130.81 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
