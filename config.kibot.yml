@@ -13,6 +13,7 @@ outputs:
     type: gerber
     options:
       output: '%f_gerbers'
+      create_zip: false
     layers:
       - F.Cu
       - B.Cu
