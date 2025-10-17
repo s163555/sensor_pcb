@@ -12,7 +12,7 @@ outputs:
     comment: "Gerber files for PCB fabrication"
     type: gerber
     options:
-      output: '%f_gerbers'
+      output: '%f_gerbers/'
     layers:
       - F.Cu
       - B.Cu
@@ -28,7 +28,7 @@ outputs:
     comment: "Drill files for PCB fabrication"
     type: excellon
     options:
-      output: '%f_drills'
+      output: '%f_drills/'
 
   - name: pos
     comment: "Pick and place file"

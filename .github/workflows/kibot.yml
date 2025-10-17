@@ -21,10 +21,9 @@ jobs:
       - name: Prepare fabrication outputs
         run: |
           mkdir -p fabrication_artifacts
-          # Copy gerber files from the gerbers output directory
-          cp -r sensor_pcb_gerbers/* fabrication_artifacts/ 2>/dev/null || true
-          # Copy drill files from the drills output directory  
-          cp -r sensor_pcb_drills/* fabrication_artifacts/ 2>/dev/null || true
+          # Copy the actual gerber and drill files (they're single files for now)
+          cp sensor_pcb_gerbers fabrication_artifacts/ 2>/dev/null || true
+          cp sensor_pcb_drills fabrication_artifacts/ 2>/dev/null || true
           # Copy other important files
           cp *.csv *.pdf *.step *.xml *.html fabrication_artifacts/ 2>/dev/null || true
           
