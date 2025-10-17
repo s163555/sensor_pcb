@@ -71,7 +71,7 @@ outputs:
       scaling: 1
       pages:
         - { page_id: board }
-        - { page_id: assembly, layers: [ F.Cu, F.SilkScreen, F.Paste, F.Mask, B.Cu, B.SilkScreen, B.Paste, B.Mask ] }
+        - { page_id: assembly, layers: [ F.Cu, F.SilkS, F.Paste, F.Mask, B.Cu, B.SilkS, B.Paste, B.Mask ] }
 
 
   - name: 3d_model
