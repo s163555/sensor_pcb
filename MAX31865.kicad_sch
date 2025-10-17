@@ -526,23 +526,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J1"
+				(at 2.54 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "RTDSensor"
+				(at 2.54 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "external_footprints:RTD_Sensor_BondPad_4x"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6556,7 +6558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "external_footprints:MIC5225"
 			(at 31.75 176.53 0)
 			(effects
 				(font
@@ -8070,7 +8072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "footprints:MAX31865ATP+"
+		(property "Footprint" "external_footprints:MAX31865ATP+"
 			(at 96.52 162.56 0)
 			(effects
 				(font
@@ -8743,7 +8745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_arduino-library:Arduino_Nano_Socket"
+		(property "Footprint" "external_footprints:Arduino_Nano_Socket"
 			(at 241.3 125.73 0)
 			(effects
 				(font
@@ -9200,7 +9202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:LI0805G201R-10"
+		(property "Footprint" "external_footprints:LI0805G201R-10"
 			(at 97.028 105.41 90)
 			(effects
 				(font
@@ -9297,7 +9299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "RTDSensor"
 			(at 166.37 151.1299 0)
 			(effects
 				(font
@@ -9306,7 +9308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:RTD_Sensor_BondPad_4x"
+		(property "Footprint" "external_footprints:RTD_Sensor_BondPad_4x"
 			(at 163.83 148.59 0)
 			(effects
 				(font

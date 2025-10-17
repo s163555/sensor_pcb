@@ -1,6 +1,4 @@
 (fp_lib_table
   (version 7)
   (lib (name "external_footprints")(type "KiCad")(uri "${KIPRJMOD}/external/footprints")(options "")(descr ""))
-  (lib (name "SensorFootprint")(type "KiCad")(uri "${KIPRJMOD}/SensorFootprint.pretty")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/external/footprints.pretty")(options "")(descr ""))
 )
