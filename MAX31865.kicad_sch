@@ -7117,7 +7117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "external_footprints:74LVC125"
 			(at 34.29 59.69 0)
 			(effects
 				(font
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "external_footprints:74LVC125"
 			(at 34.29 78.74 0)
 			(effects
 				(font
@@ -7325,7 +7325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "external_footprints:74LVC125"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -7429,7 +7429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "external_footprints:74LVC125"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -7535,7 +7535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+		(property "Footprint" "external_footprints:74LVC125"
 			(at 91.44 69.85 0)
 			(effects
 				(font
