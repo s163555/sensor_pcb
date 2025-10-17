@@ -67,19 +67,19 @@ outputs:
         - Side
 
   # PDF schematic (for documentation)
-  - name: schematic_pdf
-    comment: "PDF schematic"
-    type: pdf_sch
-    options:
-      output: '%f_schematic.pdf'
+#  - name: schematic_pdf
+#    comment: "PDF schematic"
+#    type: pdf_sch
+#    options:
+#      output: '%f_schematic.pdf'
 
   # PDF layout (for documentation)
-  - name: layout_pdf
-    comment: "PDF layout"
-    type: pdf_pcb
-    options:
-      output: '%f_layout.pdf'
-      monochrome: false
+#  - name: layout_pdf
+#    comment: "PDF layout"
+#    type: pdf_pcb
+#    options:
+#      output: '%f_layout.pdf'
+#      monochrome: false
 
   # 3D model (STEP format)
   - name: 3d_model
