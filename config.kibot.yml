@@ -84,3 +84,12 @@ outputs:
     type: ipc2581
     options:
       output: '%f_ipc2581.xml'
+
+  - name: List generated files (debug)
+    run: |
+      echo "=== Current directory ==="
+      ls -la
+      echo "=== sensor_pcb_gerbers ==="
+      ls -la sensor_pcb_gerbers/ 2>/dev/null || echo "Directory not found"
+      echo "=== sensor_pcb_drills ==="  
+      ls -la sensor_pcb_drills/ 2>/dev/null || echo "Directory not found"
