@@ -6355,7 +6355,7 @@
 			(uuid "fa4ec9e8-1543-4614-ba11-f87c0356d289")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$09")
 					(unit 1)
@@ -6459,7 +6459,7 @@
 			(uuid "163fef92-a92f-4f83-a17f-5976c6fd68de")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "R2")
 					(unit 1)
@@ -6525,7 +6525,7 @@
 			(uuid "b0d9a647-fd9f-4db4-bb43-beed81b96e89")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$04")
 					(unit 1)
@@ -6637,7 +6637,7 @@
 			(uuid "c1b75279-3eb4-47a0-9c2b-111dedf9d3c5")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "U2")
 					(unit 1)
@@ -6703,7 +6703,7 @@
 			(uuid "1f79049d-bac3-463b-995f-199ae5c43267")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR07")
 					(unit 1)
@@ -6806,7 +6806,7 @@
 			(uuid "7c5e9adc-0d1f-40fd-8d31-2f6b964aca76")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C5")
 					(unit 1)
@@ -6912,7 +6912,7 @@
 			(uuid "afa9b240-1c71-484e-9d24-24e036e60df9")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "JP3")
 					(unit 1)
@@ -7018,7 +7018,7 @@
 			(uuid "eca2b910-ae6d-4574-96e2-1122c811c9aa")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "JP2")
 					(unit 1)
@@ -7671,7 +7671,7 @@
 			(uuid "87c42600-1753-4658-88dc-66d559ff7bbb")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR09")
 					(unit 1)
@@ -7737,7 +7737,7 @@
 			(uuid "e7608406-00f1-4d77-9101-6b2df9297cf5")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$017")
 					(unit 1)
@@ -7804,7 +7804,7 @@
 			(uuid "10677cf1-ab34-4e7a-9f3d-ca724ddd1fba")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "TP2")
 					(unit 1)
@@ -7871,7 +7871,7 @@
 			(uuid "57042dd6-bb0e-4201-8a64-708fcc3a5bd1")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "TP5")
 					(unit 1)
@@ -7970,7 +7970,7 @@
 			)
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "U$19")
 					(unit 1)
@@ -8037,7 +8037,7 @@
 			(uuid "585f2659-e465-40fc-8cb0-c0f88d8e18b0")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "TP4")
 					(unit 1)
@@ -8200,7 +8200,7 @@
 			(uuid "bdacac3b-215f-4129-b549-4c7a1cf8b437")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "U1")
 					(unit 1)
@@ -8267,7 +8267,7 @@
 			(uuid "13406129-6f95-4bfb-8d81-a262f052c449")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "TP7")
 					(unit 1)
@@ -8338,7 +8338,7 @@
 			(uuid "50eee23f-c700-426d-a852-bd5e78954b4c")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "JP7")
 					(unit 1)
@@ -8404,7 +8404,7 @@
 			(uuid "8049844f-387d-4b34-a927-8b6351cb94c2")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$011")
 					(unit 1)
@@ -8541,7 +8541,7 @@
 			(uuid "c7439566-9186-4e5c-935c-e5a2c2099cca")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR03")
 					(unit 1)
@@ -8607,7 +8607,7 @@
 			(uuid "f14433ca-cb6b-4c4b-a7c5-3a01c1e453d8")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$014")
 					(unit 1)
@@ -8720,7 +8720,7 @@
 			(uuid "339a2d86-7bea-44ee-98c9-45a95009afc1")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "R1")
 					(unit 1)
@@ -8938,7 +8938,7 @@
 			(uuid "a27b633f-b1e2-4d6e-8130-434cbc1e3356")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$03")
 					(unit 1)
@@ -9072,7 +9072,7 @@
 			(uuid "84481a86-66ca-443d-b228-26b24a62bbc0")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "TP3")
 					(unit 1)
@@ -9175,7 +9175,7 @@
 			(uuid "ee1eed67-71d7-474e-87aa-469660014cae")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C2")
 					(unit 1)
@@ -9281,7 +9281,7 @@
 			(uuid "ae8fbac4-df12-43e7-9fcb-5cf9e9ab809a")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "FB1")
 					(unit 1)
@@ -9423,7 +9423,7 @@
 			(uuid "c06e44d4-541b-4732-95ad-c1791f51845c")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$019")
 					(unit 1)
@@ -9489,7 +9489,7 @@
 			(uuid "70173ea2-8680-45c7-944f-fc1a8691bc4f")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR08")
 					(unit 1)
@@ -9621,7 +9621,7 @@
 			(uuid "0abfc036-c977-4d6d-be1d-cc83c8df3967")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR010")
 					(unit 1)
@@ -9687,7 +9687,7 @@
 			(uuid "bf884ffe-c131-4661-997f-8f1ba887b600")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR06")
 					(unit 1)
@@ -9786,7 +9786,7 @@
 			)
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "U$2")
 					(unit 1)
@@ -9919,7 +9919,7 @@
 			(uuid "d41893ec-a182-49c7-b00a-9eedf3f475da")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$021")
 					(unit 1)
@@ -10022,7 +10022,7 @@
 			(uuid "45bd7f64-88d8-43c5-bdb6-464c084b9b83")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C3")
 					(unit 1)
@@ -10088,7 +10088,7 @@
 			(uuid "403ac2f2-5443-43ce-97ed-8159a31591d7")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$013")
 					(unit 1)
@@ -10191,7 +10191,7 @@
 			(uuid "6a90abe0-ffdd-4335-8d64-27c78c16d4f2")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C1")
 					(unit 1)
@@ -10257,7 +10257,7 @@
 			(uuid "e4d3a604-5639-43d0-9e4b-55fe4b0bf1d7")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$022")
 					(unit 1)
@@ -10356,7 +10356,7 @@
 			)
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "U$18")
 					(unit 1)
@@ -10459,7 +10459,7 @@
 			(uuid "c9de0e1f-b9e1-4b71-92e5-a2b22ac41dd8")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C7")
 					(unit 1)
@@ -10530,7 +10530,7 @@
 			(uuid "aea75b1b-68a4-455e-8dc1-27bb28340006")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "JP6")
 					(unit 1)
@@ -10597,7 +10597,7 @@
 			(uuid "122f9027-ffd1-4bee-a5aa-fecb05d7d1bf")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "TP6")
 					(unit 1)
@@ -10663,7 +10663,7 @@
 			(uuid "fa891fd6-1d21-4aa9-bac6-700b18407a36")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR04")
 					(unit 1)
@@ -10766,7 +10766,7 @@
 			(uuid "736facaf-0bad-4d7c-a1d9-9da72bd79441")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C6")
 					(unit 1)
@@ -10869,7 +10869,7 @@
 			(uuid "90948624-59d9-4411-a547-c910c4034ca6")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "C4")
 					(unit 1)
@@ -10973,7 +10973,7 @@
 			(uuid "c8601638-f18c-4f43-8781-142c7d24614b")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "R8")
 					(unit 1)
@@ -11127,7 +11127,7 @@
 			(uuid "c8f26513-680b-4319-a110-5db98d56e816")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$016")
 					(unit 1)
@@ -11193,7 +11193,7 @@
 			(uuid "5cae5588-c503-405e-9dcf-0ab6374d29dc")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$07")
 					(unit 1)
@@ -11259,7 +11259,7 @@
 			(uuid "9c31c4b6-440f-4597-952c-b26c6cfeb5a9")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR011")
 					(unit 1)
@@ -11358,7 +11358,7 @@
 			)
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "U$1")
 					(unit 1)
@@ -11424,7 +11424,7 @@
 			(uuid "a1b0118f-a293-45b2-a7fa-3644395ea365")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#PWR05")
 					(unit 1)
@@ -11490,7 +11490,7 @@
 			(uuid "f5f8b673-e449-4a5f-a5ba-ee9f0a3c7b71")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "#U$05")
 					(unit 1)
@@ -11561,7 +11561,7 @@
 			(uuid "82e1d1fb-2e79-452f-8629-1dca60adbc94")
 		)
 		(instances
-			(project "MAX31865"
+			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
 					(reference "JP5")
 					(unit 1)

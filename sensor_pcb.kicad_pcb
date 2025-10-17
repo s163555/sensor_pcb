@@ -255,7 +255,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/636ef886-c781-41c8-990c-ab895d16f269")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -423,7 +423,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e0c8cf34-c9f5-47bf-a67a-c2e8cce765ab")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -622,7 +622,7 @@
 		(property ki_fp_filters "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm*")
 		(path "/94c52ff8-a309-4daf-80a9-d812a3e8dc9b")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -889,7 +889,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/1579aebf-5fb5-4547-a258-6e100d717249")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
@@ -1249,7 +1249,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5ac4d04f-fa74-472f-9f5c-84d0205d4e43")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -1503,7 +1503,7 @@
 		(property ki_fp_filters "TQFN*1EP*5x5mm*P0.65mm*")
 		(path "/2f2011af-638b-4419-92bb-484725fe234c")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.5 -2.5)
@@ -3073,7 +3073,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2e4a9064-d205-4c47-8812-0949b88ef489")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -3177,7 +3177,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/84af8f09-71a3-4c92-8429-5cb6d7c1f964")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_rect
 			(start -0.75 -0.75)
@@ -3406,7 +3406,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/4e2e843c-ef7e-4f7d-b62b-5a4eb17ecd99")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
@@ -3669,7 +3669,7 @@
 		(property ki_fp_filters "Arduino_Nano_Socket")
 		(path "/5efa9206-07ca-468b-80b6-791aef276898")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -8.89 -43.18)
@@ -4608,7 +4608,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/32cab7ff-bea9-44dc-8f9e-c6222263c3eb")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -4760,7 +4760,7 @@
 		)
 		(path "/0e164449-0cab-47b5-b1df-cee1a9a9e0fc")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 -1.56)
@@ -5157,7 +5157,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d3d0e1bd-b210-4e66-af68-8bd424ea1404")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5423,7 +5423,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/11a3e95b-a517-4bd7-b03c-cb3cad425c34")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5690,7 +5690,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8168ae99-25d8-48b7-b6b5-3f196028c19e")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5957,7 +5957,7 @@
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/162eb35b-25ba-4dbb-b382-6d28becc3602")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
@@ -6291,7 +6291,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/dc9bbea5-7d5e-4d63-a974-80d15f0df509")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6558,7 +6558,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9b73c8fb-4c7d-46ee-afce-06de7020b479")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -6810,7 +6810,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/940f3b8d-5825-4c5f-97fd-397f6bf3e236")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6961,7 +6961,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/052d81bb-c287-47e4-8b5c-afb4f7e5bea9")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -7172,7 +7172,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/ffd98978-288a-455a-9b12-3ca404a772f1")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
@@ -7437,7 +7437,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e291b8ed-d2c3-4a68-9f24-317a45be4036")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.67 -2)
@@ -8190,7 +8190,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/f49f5ca3-5475-4376-8502-f76dcbfd01e8")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -8341,7 +8341,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c67daca0-fb56-4b65-900a-ff240bd23c96")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -8554,7 +8554,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2ae23797-2d85-4bb0-9ac0-d2f538799b39")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -8669,7 +8669,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/717e14b8-1f9b-4ab4-b7eb-a325a3c9939f")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -8770,7 +8770,7 @@
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/22f9cb09-9167-46d9-8049-33c7380833ab")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.31 -2.61)
@@ -9251,7 +9251,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/bb864ff6-2e08-4591-9a81-33edaadf185f")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -9405,7 +9405,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/81cbc051-c1ba-4c05-b33c-09bff7b615fc")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.58 -0.905)
@@ -9776,7 +9776,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2ae0eab7-456e-43ae-9861-2183251934b2")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -9889,7 +9889,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/39b18791-5c4f-4e17-a822-3b9a6a9ea46c")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
@@ -10221,7 +10221,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/2c4aed74-3425-40f9-98be-72bec7bb9528")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -10387,7 +10387,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b0516e1b-8c69-437d-9e3f-b43ecf654ba9")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -10598,7 +10598,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/cafa1870-fd9e-4847-8b46-c5d61afb3d7a")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
@@ -10876,7 +10876,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/cd2b536c-e52f-4456-b183-a856da641cf1")
 		(sheetname "/")
-		(sheetfile "MAX31865.kicad_sch")
+		(sheetfile "sensor_pcb.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)

@@ -32,10 +32,10 @@ jobs:
           # Copy main fabrication files
           cp -r fabrication/* fabrication_artifacts/ 2>/dev/null || true
           # Copy individual gerber/drill files from root
-          cp MAX31865_gerbers/* fabrication_artifacts/ 2>/dev/null || true
-          cp MAX31865_drills/* fabrication_artifacts/ 2>/dev/null || true
+          cp sensor_pcb_gerbers/* fabrication_artifacts/ 2>/dev/null || true
+          cp sensor_pcb_drills/* fabrication_artifacts/ 2>/dev/null || true
           # Copy other important files
-          cp *.csv *.pdf *.step *.xml fabrication_artifacts/ 2>/dev/null || true
+          cp *.csv *.pdf *.step *.xml *.html fabrication_artifacts/ 2>/dev/null || true
           
       # Upload only the clean fabrication artifacts
       - name: Upload fabrication outputs
