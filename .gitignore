@@ -31,3 +31,6 @@ fp-info-cache
 
 .kiri
 *.txt
+
+# No fabrication outputs in revision control
+fabrication/*
