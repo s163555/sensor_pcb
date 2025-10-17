@@ -39,3 +39,22 @@ jobs:
             *.pdf
             *.step
             *.xml
+  upload_release:
+    needs: generate_outputs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: fabrication-outputs
+          path: ./release_artifacts
+      - name: Create GitHub Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./release_artifacts/*.zip

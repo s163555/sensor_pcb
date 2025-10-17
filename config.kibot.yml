@@ -65,7 +65,6 @@ outputs:
       all_pages: true
 
   - name: layout_pdf
-    comment: "PDF layout"
     type: pcb_print
     options:
       output: '%f_layout.pdf'
@@ -73,6 +72,8 @@ outputs:
       scaling: 1
       pages:
         - { page_id: board }
+        - { page_id: assembly, layers: [ F.Cu, F.SilkS, F.Paste, F.Mask, B.Cu, B.SilkS, B.Paste, B.Mask ] }
+
 
   - name: 3d_model
     comment: "3D STEP model"
