@@ -8070,7 +8070,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "external_footprints:MAX31865ATP+"
+		(property "Footprint" "footprints:MAX31865ATP+"
 			(at 96.52 162.56 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "external_footprints:LI0805G201R-10"
+		(property "Footprint" "footprints:LI0805G201R-10"
 			(at 97.028 105.41 90)
 			(effects
 				(font
@@ -9306,7 +9306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SensorFootprint:RTD_Sensor_BondPad_4x"
+		(property "Footprint" "footprints:RTD_Sensor_BondPad_4x"
 			(at 163.83 148.59 0)
 			(effects
 				(font
