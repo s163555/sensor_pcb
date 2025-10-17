@@ -29,18 +29,17 @@ outputs:
     type: excellon
     options:
       output: '%f_drills'
-      use_aux_origin: false   # remove this line if your KiBot still warns about unknown option
+      # remove use_aux_origin if Kibot warns about it
 
   - name: pos
     comment: "Pick and place file"
     type: position
     options:
-      output: '%f_pos_%i.csv'       # IMPORTANT: include %i so front/back files get unique names
+      output: '%f_pos_%i.csv'
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: true
 
-  # Bill of Materials (BOM)
   - name: bom
     comment: "Bill of Materials"
     type: bom
@@ -48,15 +47,15 @@ outputs:
       output: '%f_bom.csv'
       format: CSV
       columns:
-        - Ref
-        - Val
-        - Package
-        - PosX
-        - PosY
-        - Rot
-        - Side
+        - Reference
+        - Value
+        - Footprint
+        - Footprint Lib
+        - Footprint X
+        - Footprint Y
+        - Footprint Rot
+        - Footprint Side
 
-  # PDF schematic (for documentation)
   - name: schematic_pdf
     comment: "PDF schematic"
     type: pdf_sch_print
@@ -65,26 +64,22 @@ outputs:
       frame: true
       all_pages: true
 
-  # PDF layout (for documentation)
   - name: layout_pdf
     comment: "PDF layout"
     type: pcb_print
     options:
       output: '%f_layout.pdf'
       format: PDF
-      monochrome: false
       scaling: 1
+      pages:
+        - board
 
-  # 3D model (STEP format)
   - name: 3d_model
     comment: "3D STEP model"
-    type: step
+    type: export_3d
     options:
       output: '%f_3d.step'
-      include_tracks: false
-      include_zones: false
 
-  # IPC-2581 (modern alternative to Gerber)
   - name: ipc2581
     comment: "IPC-2581 manufacturing data"
     type: ipc2581
