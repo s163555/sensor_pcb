@@ -24,12 +24,25 @@ jobs:
       - uses: INTI-CMNB/KiBot@v1.8.4
         with:
           config: config.kibot.yml
+      
+      # Create a clean fabrication outputs directory
+      - name: Prepare fabrication outputs
+        run: |
+          mkdir -p fabrication_artifacts
+          # Copy main fabrication files
+          cp -r fabrication/* fabrication_artifacts/ 2>/dev/null || true
+          # Copy individual gerber/drill files from root
+          cp MAX31865_gerbers/* fabrication_artifacts/ 2>/dev/null || true
+          cp MAX31865_drills/* fabrication_artifacts/ 2>/dev/null || true
+          # Copy other important files
+          cp *.csv *.pdf *.step *.xml fabrication_artifacts/ 2>/dev/null || true
           
+      # Upload only the clean fabrication artifacts
       - name: Upload fabrication outputs
         uses: actions/upload-artifact@v4
         with:
           name: fabrication-outputs
-          path: ./
+          path: fabrication_artifacts/
           retention-days: 30
   upload_release:
     needs: generate_outputs
