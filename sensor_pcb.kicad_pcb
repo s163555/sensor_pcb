@@ -3403,6 +3403,32 @@
 				)
 			)
 		)
+		(property "SPN" "732-5316-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50435cc1-8af8-4c5e-82b8-3287cd30e9d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a5bca7c-8c19-4996-a5a6-ffcc134f3b06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/4e2e843c-ef7e-4f7d-b62b-5a4eb17ecd99")
 		(sheetname "/")
@@ -7169,6 +7195,32 @@
 				)
 			)
 		)
+		(property "SPN" "732-5316-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50b6ce2c-0621-4c51-bfef-3903279e08fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "241a188d-53ad-4730-97c1-28de183c7df3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/ffd98978-288a-455a-9b12-3ca404a772f1")
 		(sheetname "/")
@@ -7430,6 +7482,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SPN" "WM2750-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "884fc574-9c85-4828-aa55-965611f99a77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05589ca0-a37a-4d19-b609-c1bd82b3e33e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8767,6 +8845,32 @@
 				)
 			)
 		)
+		(property "SPN" "296-1222-1-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6f80278-36e1-4f40-a4fa-f14da506210f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0108ae0-debf-453c-be7d-aad02450b00c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm*")
 		(path "/22f9cb09-9167-46d9-8049-33c7380833ab")
 		(sheetname "/")
@@ -9886,6 +9990,32 @@
 				)
 			)
 		)
+		(property "SPN" "732-5316-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9254416-4f2c-406d-bc48-fd99eaab9237")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1afa890f-12e7-437b-84db-a7b1adb0194d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/39b18791-5c4f-4e17-a822-3b9a6a9ea46c")
 		(sheetname "/")
@@ -10588,6 +10718,32 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "33093a25-1562-4772-bfb6-39ecc4a4e0ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SPN" "732-5316-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c686e60e-055b-43ee-ad40-bd488c9fbde3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5122a96-9d5d-40fe-8559-230b9ab604ca")
 			(effects
 				(font
 					(size 1 1)

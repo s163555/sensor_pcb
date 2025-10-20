@@ -7144,6 +7144,24 @@
 				(hide yes)
 			)
 		)
+		(property "SPN" "296-1222-1-ND"
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cee2463-8eaa-48de-ade2-89bd43f7c29b")
 		)
@@ -7240,6 +7258,24 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "296-1222-1-ND"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 34.29 78.74 0)
 			(effects
 				(font
@@ -7352,6 +7388,24 @@
 				(hide yes)
 			)
 		)
+		(property "SPN" "296-1222-1-ND"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cee2463-8eaa-48de-ade2-89bd43f7c29d")
 		)
@@ -7448,6 +7502,24 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "296-1222-1-ND"
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 64.77 78.74 0)
 			(effects
 				(font
@@ -7554,6 +7626,24 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "296-1222-1-ND"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 91.44 69.85 0)
 			(effects
 				(font
@@ -8328,6 +8418,24 @@
 				(hide yes)
 			)
 		)
+		(property "SPN" "732-5316-ND"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cebac5c2-1ae0-4611-bc37-023d1aba8d28")
 		)
@@ -8457,6 +8565,24 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "732-5316-ND"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 154.94 21.59 0)
 			(effects
 				(font
@@ -10520,6 +10646,24 @@
 				(hide yes)
 			)
 		)
+		(property "SPN" "732-5316-ND"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "08d5e5dd-aac6-43af-a53b-7909b21c36eb")
 		)
@@ -11036,6 +11180,24 @@
 				(hide yes)
 			)
 		)
+		(property "SPN" "WM2750-ND"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "33375283-11d6-45f1-bd2b-ce6408d385c3")
 		)
@@ -11543,6 +11705,24 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "732-5316-ND"
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
 			(at 114.3 21.59 0)
 			(effects
 				(font

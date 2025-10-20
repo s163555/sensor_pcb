@@ -34,3 +34,5 @@ fp-info-cache
 
 # No fabrication outputs in revision control
 fabrication/*
+pcbway_production/*
+jlcpcb_production/*

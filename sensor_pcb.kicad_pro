@@ -569,9 +569,9 @@
       "idf": "",
       "netlist": "",
       "plot": "fabrication/",
-      "pos_files": "",
+      "pos_files": "pcbway_production/2025-10-20-13-07-04/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "fabrication/sensor_pcb.step",
       "svg": "",
       "vrml": ""
     },
