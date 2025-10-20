@@ -30,9 +30,12 @@ fp-info-cache
 *.csv
 
 .kiri
-*.txt
 
 # No fabrication outputs in revision control
 fabrication/*
 pcbway_production/*
 jlcpcb_production/*
+
+# No 3D model files in revision control
+*.wrl
+*.step

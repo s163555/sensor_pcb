@@ -1,0 +1,27 @@
+Project: RTD Sensor PCB
+Revision: B
+Date: 2025-10-20
+
+1. PCB
+a. 2-layer FR-4, 1.6 mm, 1 oz Cu
+b. Surface finish: ENEPIG preferred
+c. Solder mask: Green, both sides
+d. Silkscreen: White, top only
+
+2. Design Rules
+a. Min trace/space: 0.15 mm
+b. Min finished hole: 0.3 mm
+c. Outline tolerance: 0.1 mm
+
+3. Assembly
+a. Components on top side only
+b. Reference text visible
+c. Polarity/orientation marked
+d. Max height: 15 mm
+
+4. Testing
+a. Continuity test required
+b. Operating temperature: -30 °C to +100 °C
+
+5. Deliverables
+a. Gerber (RS-274X), Excellon drill, STEP, BOM, Pick & Place, PDF schematic/layout
