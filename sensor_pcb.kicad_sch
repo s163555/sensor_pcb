@@ -4403,7 +4403,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 154.94 146.05)
+			(xy 144.78 146.05) (xy 146.05 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4433,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 153.67) (xy 154.94 153.67)
+			(xy 144.78 153.67) (xy 146.05 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4443,7 +4443,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 158.75) (xy 154.94 158.75)
+			(xy 144.78 158.75) (xy 146.05 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4613,7 +4613,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 153.67) (xy 170.18 153.67)
+			(xy 153.67 153.67) (xy 161.29 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4663,7 +4663,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 146.05) (xy 170.18 146.05)
+			(xy 153.67 146.05) (xy 161.29 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5023,7 +5023,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 161.29) (xy 154.94 161.29)
+			(xy 144.78 161.29) (xy 146.05 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5133,7 +5133,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 158.75) (xy 170.18 158.75)
+			(xy 153.67 158.75) (xy 161.29 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5163,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 148.59) (xy 154.94 148.59)
+			(xy 144.78 148.59) (xy 146.05 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5283,7 +5283,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 156.21) (xy 154.94 156.21)
+			(xy 144.78 156.21) (xy 146.05 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5293,7 +5293,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 148.59) (xy 170.18 148.59)
+			(xy 153.67 148.59) (xy 161.29 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 151.13) (xy 154.94 151.13)
+			(xy 144.78 151.13) (xy 146.05 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5463,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 156.21) (xy 170.18 156.21)
+			(xy 153.67 156.21) (xy 161.29 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5483,7 +5483,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 163.83) (xy 170.18 163.83)
+			(xy 153.67 163.83) (xy 161.29 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5513,7 +5513,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 163.83) (xy 154.94 163.83)
+			(xy 144.78 163.83) (xy 146.05 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5583,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 151.13) (xy 170.18 151.13)
+			(xy 153.67 151.13) (xy 161.29 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5593,7 +5593,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 161.29) (xy 170.18 161.29)
+			(xy 153.67 161.29) (xy 161.29 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5722,7 +5722,7 @@
 		(uuid "13fab40e-9e3a-4f17-b086-ec55f508161f")
 	)
 	(label "AFE_F+"
-		(at 153.67 151.13 180)
+		(at 144.78 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5782,7 +5782,7 @@
 		(uuid "2706d612-f40a-4afb-85c4-788eb83dca2b")
 	)
 	(label "AFE_F-"
-		(at 153.67 158.75 180)
+		(at 144.78 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5832,7 +5832,7 @@
 		(uuid "37efc65b-afbd-4ce6-9f15-02b57ad86da8")
 	)
 	(label "AFE_S+"
-		(at 153.67 163.83 180)
+		(at 144.78 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,7 +5872,7 @@
 		(uuid "551cc972-4311-429b-baf8-b02395500e23")
 	)
 	(label "S1_S-"
-		(at 165.1 146.05 0)
+		(at 156.21 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5882,7 +5882,7 @@
 		(uuid "56a53497-7e63-4cc8-8e33-f0a1e54f6f4c")
 	)
 	(label "S1_F+"
-		(at 165.1 151.13 0)
+		(at 156.21 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5952,7 +5952,7 @@
 		(uuid "78bca6ef-8f70-4979-b8d2-5f9125c6ac58")
 	)
 	(label "S2_F+"
-		(at 165.1 161.29 0)
+		(at 156.21 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5972,7 +5972,7 @@
 		(uuid "7d9811b6-cca8-4da2-9889-b606079c685a")
 	)
 	(label "S1_S+"
-		(at 165.1 153.67 0)
+		(at 156.21 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5992,7 +5992,7 @@
 		(uuid "8590a3df-452f-4a7d-8611-90aff751b86b")
 	)
 	(label "S2_S-"
-		(at 165.1 156.21 0)
+		(at 156.21 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6052,7 +6052,7 @@
 		(uuid "9b10aec6-2ad9-487f-b4fa-6bf7c9ebeb7e")
 	)
 	(label "S2_S+"
-		(at 165.1 163.83 0)
+		(at 156.21 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6062,7 +6062,7 @@
 		(uuid "a201a328-1d5a-4a42-87bb-9914ed0c1d1b")
 	)
 	(label "AFE_F+"
-		(at 153.67 161.29 180)
+		(at 144.78 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6112,7 +6112,7 @@
 		(uuid "b7acc91c-98d5-408e-8d40-6348a3e6a958")
 	)
 	(label "S2_F-"
-		(at 165.1 158.75 0)
+		(at 156.21 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6122,7 +6122,7 @@
 		(uuid "b919baea-8405-4549-acd1-8f1aa29e62a0")
 	)
 	(label "S1_F-"
-		(at 165.1 148.59 0)
+		(at 156.21 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6132,7 +6132,7 @@
 		(uuid "c0d4d714-ee91-4436-8d00-9cc4e7e91a98")
 	)
 	(label "AFE_S-"
-		(at 153.67 146.05 180)
+		(at 144.78 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6152,7 +6152,7 @@
 		(uuid "c4e15dac-cdef-464c-ad6c-550c573de719")
 	)
 	(label "AFE_S+"
-		(at 153.67 153.67 180)
+		(at 144.78 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6162,7 +6162,7 @@
 		(uuid "c60044e0-1fea-4f69-b600-fd043912d27c")
 	)
 	(label "AFE_S-"
-		(at 153.67 156.21 180)
+		(at 144.78 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6192,7 +6192,7 @@
 		(uuid "ceacdc53-4546-4d14-a56a-14e3df54d928")
 	)
 	(label "AFE_F-"
-		(at 153.67 148.59 180)
+		(at 144.78 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6376,6 +6376,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 72.39 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 72.39 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3ae3749-3b33-4465-8923-ad1c0e5b45bd")
 		)
@@ -6537,6 +6555,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 31.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 31.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 31.75 175.26 0)
 			(effects
 				(font
@@ -6723,6 +6759,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90dbc79b-c6ee-4f22-aaad-b5e04fd62b37")
 		)
@@ -6822,6 +6876,24 @@
 		)
 		(property "Supplier" ""
 			(at 115.57 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 115.57 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 115.57 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,6 +7007,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 125.73 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 125.73 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3ef70ba-851c-42d2-83e6-24ccfd63afad")
 		)
@@ -7018,7 +7108,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 161.29 0)
+		(at 149.86 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7026,7 +7116,7 @@
 		(dnp no)
 		(uuid "224c14c5-1c11-46bf-b7f2-b8d7733fa1de")
 		(property "Reference" "R6"
-			(at 159.004 169.164 0)
+			(at 150.114 169.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7124,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 161.29 0)
+			(at 150.114 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7132,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 165.608 0)
+			(at 150.749 165.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 161.29 0)
+			(at 150.368 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7150,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 161.29 0)
+			(at 149.86 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,6 +7253,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 34.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 34.29 59.69 0)
 			(effects
 				(font
@@ -7275,6 +7401,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cee2463-8eaa-48de-ade2-89bd43f7c29c")
 		)
@@ -7389,6 +7533,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -7519,6 +7681,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cee2463-8eaa-48de-ade2-89bd43f7c29e")
 		)
@@ -7635,6 +7815,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 91.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 91.44 69.85 0)
 			(effects
 				(font
@@ -7881,6 +8079,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 16.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 16.51 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10677cf1-ab34-4e7a-9f3d-ca724ddd1fba")
 		)
@@ -7940,6 +8156,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 142.24 27.94 0)
 			(effects
 				(font
@@ -8050,6 +8284,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 26.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 26.67 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
@@ -8106,6 +8358,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 140.97 46.99 0)
 			(effects
 				(font
@@ -8209,6 +8479,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 92.71 146.05 0)
 			(effects
 				(font
@@ -8344,6 +8632,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 44.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13406129-6f95-4bfb-8d81-a262f052c449")
 		)
@@ -8358,7 +8664,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 151.13 0)
+		(at 149.86 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8366,7 +8672,7 @@
 		(dnp no)
 		(uuid "35431df3-d03e-425f-b986-97fa63dc784b")
 		(property "Reference" "R11"
-			(at 158.75 142.748 0)
+			(at 149.86 142.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8680,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 151.13 0)
+			(at 150.114 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +8688,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 155.448 0)
+			(at 150.749 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +8697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 151.13 0)
+			(at 150.368 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8400,7 +8706,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 151.13 0)
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,6 +8810,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 154.94 40.64 0)
 			(effects
 				(font
@@ -8641,6 +8983,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 154.94 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 154.94 21.59 0)
 			(effects
 				(font
@@ -8897,6 +9257,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 130.81 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "192c4347-4d5d-47fd-b484-c332b0968756")
 		)
@@ -8957,6 +9335,24 @@
 			)
 		)
 		(property "Description" "Socket for Arduino Nano"
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 241.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 241.3 91.44 0)
 			(effects
 				(font
@@ -9185,6 +9581,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 52.07 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ba7dee8-9134-4d9f-a984-5c1840760f2d")
 		)
@@ -9199,7 +9613,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 153.67 0)
+		(at 149.86 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9207,7 +9621,7 @@
 		(dnp no)
 		(uuid "6ad9e527-cc93-4439-b44a-3f7b7f649949")
 		(property "Reference" "R12"
-			(at 158.75 144.272 0)
+			(at 149.86 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +9629,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 153.67 0)
+			(at 150.114 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +9637,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 157.988 0)
+			(at 150.749 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +9646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 153.67 0)
+			(at 150.368 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9241,7 +9655,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 153.67 0)
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,6 +9751,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84481a86-66ca-443d-b228-26b24a62bbc0")
 		)
@@ -9333,7 +9783,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 175.26 153.67 0)
+		(at 166.37 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9342,7 +9792,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d01317d-3074-4de5-9c37-b9ffac43d396")
 		(property "Reference" "J1"
-			(at 177.8 153.6699 0)
+			(at 168.91 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9351,7 +9801,7 @@
 			)
 		)
 		(property "Value" "RTDSensor"
-			(at 177.8 156.2099 0)
+			(at 168.91 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9810,7 @@
 			)
 		)
 		(property "Footprint" "external_footprints:RTD_Sensor_BondPad_interdigitated"
-			(at 175.26 153.67 0)
+			(at 166.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 153.67 0)
+			(at 166.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9828,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 153.67 0)
+			(at 166.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,6 +9975,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e64701ea-fff0-4c26-b3b5-e43e373d713d")
 		)
@@ -9605,6 +10091,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 95.25 105.41 0)
 			(effects
 				(font
@@ -10049,6 +10553,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
@@ -10102,6 +10624,24 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 91.44 167.64 0)
 			(effects
 				(font
@@ -10279,6 +10819,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 124.46 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7f72378-25b1-4b0f-b6d0-046d08c8ef22")
 		)
@@ -10362,7 +10920,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 148.59 0)
+		(at 149.86 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10370,7 +10928,7 @@
 		(dnp no)
 		(uuid "ae57aa19-5422-4952-a3bf-85a96ff695e1")
 		(property "Reference" "R10"
-			(at 158.75 141.224 0)
+			(at 149.86 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10936,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 148.59 0)
+			(at 150.114 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10944,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 152.908 0)
+			(at 150.749 152.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 148.59 0)
+			(at 150.368 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10962,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 148.59 0)
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,6 +11083,24 @@
 			)
 		)
 		(property "Supplier" "Eurocircuits"
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 83.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 83.82 113.03 0)
 			(effects
 				(font
@@ -10686,6 +11280,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
@@ -10783,6 +11395,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f03ab49-53e3-44a7-bc16-26b8f2e2276e")
 		)
@@ -10869,6 +11499,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "08d5e5dd-aac6-43af-a53b-7909b21c36eb")
 		)
@@ -10942,6 +11590,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 100.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 100.33 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "122f9027-ffd1-4bee-a5aa-fecb05d7d1bf")
 		)
@@ -10956,7 +11622,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 163.83 0)
+		(at 149.86 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10964,7 +11630,7 @@
 		(dnp no)
 		(uuid "ceb25eba-b032-40f6-aaf6-de8eae5d53ca")
 		(property "Reference" "R7"
-			(at 159.004 170.688 0)
+			(at 150.114 170.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +11638,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 163.83 0)
+			(at 150.114 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10980,7 +11646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 168.148 0)
+			(at 150.749 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10989,7 +11655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 163.83 0)
+			(at 150.368 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +11664,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 163.83 0)
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11175,6 +11859,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a907dd5-a5be-439c-baf3-e60fe90b7b6a")
 		)
@@ -11192,7 +11894,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 156.21 0)
+		(at 149.86 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11200,7 +11902,7 @@
 		(dnp no)
 		(uuid "da06a049-72dc-43b4-b3b7-f58655df9d38")
 		(property "Reference" "R4"
-			(at 159.004 166.116 0)
+			(at 150.114 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,7 +11910,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 156.21 0)
+			(at 150.114 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11918,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 160.528 0)
+			(at 150.749 160.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 156.21 0)
+			(at 150.368 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11936,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 156.21 0)
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11337,6 +12057,24 @@
 			)
 		)
 		(property "Supplier" "Eurocircuits"
+			(at 21.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 21.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 21.59 176.53 0)
 			(effects
 				(font
@@ -11449,6 +12187,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 62.23 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a747d759-add3-4281-ac5d-a604411f039c")
 		)
@@ -11537,6 +12293,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "33375283-11d6-45f1-bd2b-ce6408d385c3")
 		)
@@ -11572,7 +12346,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 158.75 0)
+		(at 149.86 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11580,7 +12354,7 @@
 		(dnp no)
 		(uuid "e293b99a-54d1-4aa3-a4a8-b62f04bf1f7e")
 		(property "Reference" "R5"
-			(at 159.004 167.64 0)
+			(at 150.114 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +12362,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 158.75 0)
+			(at 150.114 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,7 +12370,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 163.068 0)
+			(at 150.749 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11605,7 +12379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 158.75 0)
+			(at 150.368 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11614,7 +12388,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 158.75 0)
+			(at 149.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11705,7 +12497,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:0ohm")
-		(at 158.75 146.05 0)
+		(at 149.86 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11713,7 +12505,7 @@
 		(dnp no)
 		(uuid "e39bfb96-9526-43bb-b7b1-4e27e34cf5fe")
 		(property "Reference" "R9"
-			(at 158.75 139.7 0)
+			(at 149.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11721,7 +12513,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 159.004 146.05 0)
+			(at 150.114 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +12521,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 159.639 150.368 0)
+			(at 150.749 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +12530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 159.258 146.05 0)
+			(at 150.368 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +12539,25 @@
 			)
 		)
 		(property "Description" "0Ω, 1/4W Resistor"
-			(at 158.75 146.05 0)
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,6 +12802,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 34.29 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 34.29 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "sensor_pcb"
 				(path "/7d3dfe06-ad22-4135-8721-3b06d69e4560"
@@ -12196,6 +13024,24 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 114.3 21.59 0)
 			(effects
 				(font

@@ -35,6 +35,7 @@ fp-info-cache
 fabrication/*
 pcbway_production/*
 jlcpcb_production/*
+bom/*
 
 # No 3D model files in revision control
 *.wrl
