@@ -40,7 +40,7 @@ void loop() {
 
   //Serial.print("RTD raw: "); Serial.print(rtd);
   //Serial.print(" | Temp: "); 
-  Serial.println(temperature, 2);
+  Serial.println(temperature, 3);
 
   digitalWrite(LED_PIN, !digitalRead(LED_PIN));
   delay(1000);
