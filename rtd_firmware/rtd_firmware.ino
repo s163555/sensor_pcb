@@ -7,6 +7,7 @@
 #define MAX31865_CS 10
 
 Adafruit_MAX31865 thermo(MAX31865_CS);
+static bool checkfaults = false;
 
 void setup() {
   Serial.begin(115200);
@@ -44,4 +45,15 @@ void loop() {
 
   digitalWrite(LED_PIN, !digitalRead(LED_PIN));
   delay(1000);
+  uint8_t fault = thermo.readFault();
+  if (fault && (checkfaults==true)) {
+    Serial.print("Fault 0x"); Serial.println(fault, HEX);
+    if (fault & MAX31865_FAULT_HIGHTHRESH) Serial.println("RTD High Threshold"); 
+    if (fault & MAX31865_FAULT_LOWTHRESH) Serial.println("RTD Low Threshold"); 
+    if (fault & MAX31865_FAULT_REFINLOW) Serial.println("REFIN- > 0.85 x Bias"); 
+    if (fault & MAX31865_FAULT_REFINHIGH) Serial.println("REFIN- < 0.85 x Bias - FORCE- open"); 
+    if (fault & MAX31865_FAULT_RTDINLOW) Serial.println("RTDIN- < 0.85 x Bias - FORCE- open"); 
+    if (fault & MAX31865_FAULT_OVUV) Serial.println("Under/Over voltage"); 
+    thermo.clearFault();
+  }
 }
