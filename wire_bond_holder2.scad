@@ -25,11 +25,6 @@ rib_thickness   = 2.5;
 base_thickness  = 2.0;
 wall_thickness  = 4.0;
 
-// Chuck access window
-chuck_width     = 20;
-chuck_length    = 20;
-chuck_clearance = 1.0;
-
 // Chuck mounting
 chuck_plate_thickness = 2.5;
 chuck_mount_hole_d    = 3.4;   // M3 clearance
@@ -40,6 +35,11 @@ chuck_spacing_y = 80.5;
 
 // Plate trimming
 chuck_edge_margin = 4;
+
+// PCB removal push-out hole
+pushout_size_x = 35;
+pushout_size_y = 35;
+pcb_bottom_z = chuck_plate_thickness + base_thickness;
 
 // ======================================================
 // DERIVED
@@ -144,17 +144,14 @@ difference() {
                chuck_plate_thickness + base_thickness])
         linear_extrude(height = standoff_height + pcb_thickness)
             square([pcb_length, pcb_width]);
-
-    // Chuck access window
+    // PCB push-out hole (from bottom up to PCB underside)
     translate([
-        pcb_block_offset_x + wall_thickness + pcb_length/2 - chuck_width/2,
-        pcb_block_offset_y + wall_thickness + pcb_width/2  - chuck_length/2,
-        chuck_plate_thickness
+        pcb_block_offset_x + wall_thickness + pcb_length/2 - pushout_size_x/2,
+        pcb_block_offset_y + wall_thickness + pcb_width/2  - pushout_size_y/2,
+        -0.1
     ])
-        linear_extrude(height = base_thickness - 0.2)
-            square([chuck_width + 2*chuck_clearance,
-                    chuck_length + 2*chuck_clearance]);
-
+        linear_extrude(height = pcb_bottom_z + 0.2)
+            square([pushout_size_x, pushout_size_y], center=false);
     // Chuck mounting holes
     for (p = chuck_mount_positions)
         translate([p[0], p[1], -0.1])
