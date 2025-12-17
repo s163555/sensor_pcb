@@ -10,11 +10,11 @@ pcb_width       = 50;
 pcb_thickness   = 1.6;
 
 // PCB mounting
-corner_offset_x = 3.5;
-corner_offset_y = 3.5;
+corner_offset_x = 2.6;
+corner_offset_y = 2.6;
 
 // PCB screw / standoff
-pilot_d         = 2.0;     // pilot for M2.5 nylon screw
+pilot_d         = 2.5;     // pilot for M2.5 nylon screw
 boss_radius     = 2.5;
 standoff_height = 8.0;
 
@@ -36,8 +36,8 @@ chuck_plate_thickness = 2.5;
 chuck_mount_hole_d    = 3.4;   // M3 clearance
 
 // Chuck hole spacing (CENTER-TO-CENTER, derived from caliper)
-chuck_spacing_x = 80.5;   // width  (92.5 + 3.0)
-chuck_spacing_y = 95.5;   // length (77.5 + 3.0)
+chuck_spacing_x = 95.5;   // width  (92.5 + 3.0)
+chuck_spacing_y = 80.5;   // length (77.5 + 3.0)
 
 // ======================================================
 // DERIVED VALUES
