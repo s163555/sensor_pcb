@@ -3,7 +3,7 @@
 
 #define LED_PIN     LED_BUILTIN
 #define RREF        430.0
-#define RNOMINAL    100.0
+#define RNOMINAL    100
 #define MAX31865_CS 10
 
 Adafruit_MAX31865 thermo(MAX31865_CS);
@@ -19,7 +19,7 @@ void setup() {
 
   Serial.println("RTD Pt100 Test");
 
-  thermo.begin(MAX31865_3WIRE);
+  thermo.begin(MAX31865_2WIRE);
 
   thermo.enableBias(true);
   delay(10);
@@ -36,24 +36,23 @@ void setup() {
 }
 
 void loop() {
-  //uint16_t rtd = thermo.readRTD();
-  float temperature = thermo.temperature(RNOMINAL, RREF);
+  thermo.enableBias(true);
+  delay(10);
 
-  //Serial.print("RTD raw: "); Serial.print(rtd);
-  //Serial.print(" | Temp: "); 
-  Serial.println(temperature, 3);
+  uint16_t rtd = thermo.readRTD();
 
-  digitalWrite(LED_PIN, !digitalRead(LED_PIN));
+  thermo.enableBias(false);
+  // Raw
+  //Serial.print("RTD raw: ");
+  Serial.println(rtd);
+  // Resistance
+  //float ratio = rtd / 32768.0;
+  //float resistance = ratio * RREF;
+  //Serial.print("Resistance: ");
+  //Serial.println(resistance, 3);
+  //float T = (resistance - RNOMINAL) / (RNOMINAL * 0.00385);
+  //Serial.print("Temperature: ");
+  //Serial.println(T);
+
   delay(1000);
-  uint8_t fault = thermo.readFault();
-  if (fault && (checkfaults==true)) {
-    Serial.print("Fault 0x"); Serial.println(fault, HEX);
-    if (fault & MAX31865_FAULT_HIGHTHRESH) Serial.println("RTD High Threshold"); 
-    if (fault & MAX31865_FAULT_LOWTHRESH) Serial.println("RTD Low Threshold"); 
-    if (fault & MAX31865_FAULT_REFINLOW) Serial.println("REFIN- > 0.85 x Bias"); 
-    if (fault & MAX31865_FAULT_REFINHIGH) Serial.println("REFIN- < 0.85 x Bias - FORCE- open"); 
-    if (fault & MAX31865_FAULT_RTDINLOW) Serial.println("RTDIN- < 0.85 x Bias - FORCE- open"); 
-    if (fault & MAX31865_FAULT_OVUV) Serial.println("Under/Over voltage"); 
-    thermo.clearFault();
-  }
 }
