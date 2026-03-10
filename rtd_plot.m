@@ -7,6 +7,15 @@ RREF = 430.0;
 RNOMINAL1 = 100.0;
 RNOMINAL2 = 73.8;
 
+figure(1);
+hold on;
+grid on;
+plot(data.Time, data.Value1, 'r.-', 'DisplayName', 'Commercial RTD');
+plot(data.Time, data.Value2, 'b.-', 'DisplayName', 'Custom RTD');
+legend show;
+xlabel('Time');
+ylabel('ADC value (A.U.)');
+
 res1 = (data.Value1 / 32768.0) * RREF;
 T1 = (res1 - RNOMINAL1) ./ (RNOMINAL1 * 0.00385);
 
@@ -24,7 +33,7 @@ fprintf('Optimized alpha2: %.6f\n', alpha2_opt);
 
 T2_opt = (res2 - RNOMINAL2_opt) ./ (RNOMINAL2_opt * alpha2_opt);
 
-figure(1);
+figure(2);
 hold on;
 grid on;
 plot(data.Time, T1, 'r.-', 'DisplayName', 'Commercial RTD');
@@ -36,14 +45,14 @@ ylabel('Temperature (°C)');
 deltaT = T2 - T1;
 deltaT_opt = T2_opt - T1;
 
-figure(2);
+figure(3);
 plot(data.Time, deltaT, 'k.-', 'DisplayName', '\DeltaT (Custom - Commercial)');
 grid on;
 legend show;
 xlabel('Time');
 ylabel('Temperature Difference (°C)');
 
-figure(3);
+figure(4);
 hold on;
 grid on;
 plot(data.Time, T1, 'r.-', 'DisplayName', 'Commercial RTD');
@@ -52,9 +61,18 @@ legend show;
 xlabel('Time');
 ylabel('Temperature (°C)');
 
-figure(4)
+figure(5)
 plot(data.Time, deltaT_opt, 'k.-', 'DisplayName', '\DeltaT (Custom - Commercial)');
 grid on;
 legend show;
 xlabel('Time');
 ylabel('Temperature Difference (°C)');
+
+figure(6)
+hold on
+grid on
+plot(T1, res1, 'r.-', 'DisplayName', 'Commercial RTD');
+plot(T2, res2, 'b.-', 'DisplayName', 'Custom RTD');
+legend show;
+xlabel('Temperature (°C)');
+ylabel('Resistance (\Omega)');
